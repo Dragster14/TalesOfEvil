@@ -4,3 +4,7 @@ body {
     max-width: 2560px;
     margin: auto;
 }
+
+p {
+    line-height: 2em;
+}
