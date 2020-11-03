@@ -19,12 +19,12 @@
         </header>
 <!-- Header-Fin -->
 
-<!-- Section -->
-        <section class="container-fluid mt-5">
+<!-- Au commencement -->
+        <article class="container-fluid mt-5">
             <div class="row">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold text-break">
-                        - Au Commencement - <span class="invisible">40</span>
+                        - Au commencement - <span class="invisible">40</span>
                     </h4>
                 </div>
             </div>
@@ -50,21 +50,25 @@
                         <br />
                         <span class="font-italic">"Il faut retrouver Tommy. Encore. C'est de notre faute s'il a disparu après tout."</span>
                     </p>
-                    <button type="button" class="btn btn-dark my-3">
+                    <button type="button" class="btn btn-dark my-3" id="btn40_1" onclick="suite163()">
                         1 - Je suis prêt à m'occuper de la mystérieuse disparition de Tommy Jarvis.
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3">
+                    <button type="button" class="btn btn-dark mb-3" id="btn40_2" onclick="suite225()">
                         2 - Je ne veux pas m'occuper de cette affaire.
                     </button>
                 </div>
             </div>
-        </section>
-<!-- Section-Fin -->
+        </article>
+<!-- Au commencement-Fin -->
+
+        <div class="container-fluid my-5" id="histoire"></div>
 
 <!-- Les possibilités -->
-        <div class="container-fluid mt-5">
-            <div class="row">
+
+<!-- Ah ! -->
+        <div class="container-fluid d-none" id="225">
+            <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold">
                         - Ah ! - <span class="invisible">225</span>
@@ -77,17 +81,18 @@
                         En bondissant de ma chaise, je m'exclamais : <span class="font-italic">"Vous plaisantez ? Vous voulez vraiment laisser ce gamin à la merci de Dieu sait quoi ?"</span> Mes amis baissèrent la tête.
                     </p>
                     <p class="text-justify">
-                        - Chaque Investigateur perd 1 point de santé mentale et commence la partie en subissant ce malus.
+                        - Chaque Investigateur perd <span class="font-weight-bold">1 point de santé mentale</span> et commence la partie en subissant ce malus.
                     </p>
-                    <button type="button" class="btn btn-dark my-3">
+                    <button type="button" class="btn btn-dark my-3" id="btn225" onclick="suite163()">
                         On continue !
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid mt-5">
-            <div class="row">
+<!-- Nous avons une affaire -->
+        <div class="container-fluid d-none" id="163">
+            <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold">
                         - Nous avons une affaire ! - <span class="invisible">163</span>
@@ -129,9 +134,9 @@
                 <div class="col-lg-6">
                     <form>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Quelque chose à remplir ici... ?" pattern="^[a-z]+\.[a-z]+\.[a-z]@[a-z]+\.[a-z]{2,4}$" required/>
+                            <input type="email" class="form-control" id="input163" placeholder="Quelque chose à remplir ici... ?" />
                         </div>
-                        <button type="button" class="btn btn-dark mb-3">
+                        <button type="button" class="btn btn-dark mb-3" id="btn163" onclick="suite88E()">
                             Suggérer
                         </button>
                     </form>
@@ -139,8 +144,9 @@
             </div>
         </div>
 
-        <div class="container-fluid mt-5">
-            <div class="row">
+<!-- Email -->
+        <div class="container-fluid d-none" id="88E">
+            <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold">
                         - Email - <span class="invisible">88 (évènement)</span>
@@ -167,15 +173,16 @@
                     <p class="text-justify font-italic">
                         Peter Spencer
                     </p>
-                    <button type="button" class="btn btn-dark my-3">
+                    <button type="button" class="btn btn-dark my-3" id="btn88E" onclick="suite30()">
                         On continue !
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid mt-5">
-            <div class="row">
+<!-- Nous sommes sur la bonne voie !-->
+        <div class="container-fluid d-none" id="30">
+            <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold">
                         - Nous sommes sur la bonne voie ! - <span class="invisible">30</span>
@@ -197,15 +204,16 @@
                         <br />
                         <span class="font-italic">"La maison est hantée. Elle est sous l'influence d'un démon capable de dissimuler ses agissements à ceux qui ont perdu la capacité de croire. Si la police fouille la maison, elle ne trouvera rien. Seuls ceux qui sont encore jeunes et prêts à croire à certaines choses seront capables de révéler la vérité sur cette maison et de se battre pour sauver le petit Tommy. Vous, vous croyez encore en des choses que la plupart des gens prétendent ne pas voir. Allez à la vieille maison et j'essaierai de vous donner un coup de main grâce au Talkie-walkie"</span>, répondit la Voix avant que le silence ne retombe.
                     </p>
-                    <button type="button" class="btn btn-dark my-3">
+                    <button type="button" class="btn btn-dark my-3" id="btn30" onclick="suite448()">
                         On continue !
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid mt-5">
-            <div class="row">
+<!-- Chapitre 1 -->
+        <div class="container-fluid d-none" id="448">
+            <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold">
                         - Chapitre 1 - <span class="invisible">448</span>
@@ -215,9 +223,9 @@
             <div class="row px-5">
                 <div class="col-12">
                     <p class="text-justify">
-                        Bienvenue à Neibolt Street
+                        Bienvenue à Neibolt Street.
                         <br />
-                        Objectif : Trouver la clé de Cœur.
+                        <ins>Objectif :</ins> Trouver la clé de Cœur.
                     </p>
                     <p class="text-justify">
                         Après le repas, nous nous étions retrouvés au camping-car. Nous étions seuls et prêts à aller à Neibolt Street, quand le Talkie-walkie vibra et que la Voix résonna de nouveau : <span class="font-italic">"Bon, les gars, votre première tâche va être d'entrer dans la maison et de trouver la <span class="font-weight-bold">Clé de Coeur</span>, une des Clés de la Destinée qui vous permettra d'accéder au sous-sol où Tommy est probablement retenu prisonnier. Mais votre aventure risque d'être longue car vous aurez aussi besoin de trouver les 3 autres clés."</span>
@@ -233,27 +241,28 @@
                         <br />
                         - Placez les Investigateurs dans la zone <span class="font-weight-bold">1</span>.
                         <br />
-                        - Le prochain Brave à fêter son anniversaire prend le Talkie-walkie et devient le premier joueur.
+                        - Le prochain Brave à fêter son anniversaire prend le <span class="font-weight-bold">Talkie-walkie</span> et devient le premier joueur.
                     </p>
                     <p class="text-justify">
                         Une fois à l'intérieur, nous avons découvert un grand hall illuminé par les rayons de la lune qui s'infiltraient à travers les fenêtres de la galerie du premier étage. La plupart des portes semblaient fermées. De la poussière dansait devant nos yeux ébahis, tandis que l'odeur amère du bois pourrissant emplissait nos narines. Nous n'étions pas vraiment rassurés lorsque... <span class="font-weight-bold">[Carte Évènement]</span>
                     </p>
                     <p class="text-justify border-left border-dark pl-3">
-                        - Placez un jeton Trouvaille.
+                        - Placez un jeton <span class="font-weight-bold">Trouvaille</span>.
                     </p>
-                    <button type="button" class="btn btn-dark my-3">
+                    <button type="button" class="btn btn-dark my-3" id="btn448_1" onclick="suite118()">
                         1 - <span class="font-italic">"Les gars, il y a un courant d'air qui vient de cette porte"</span>, déclara Daphné. Nous ouvrons la porte E.
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3">
+                    <button type="button" class="btn btn-dark mb-3" id="btn448_2" onclick="suite467()">
                         2 - <span class="font-italic">"Je vois un peu de lumière par le trou de cette serrure"</span>, indiqua Mike. Nous ouvrons la porte H.
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid mt-5">
-            <div class="row">
+<!-- Zut ! -->
+        <div class="container-fluid d-none" id="467">
+            <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold">
                         - Zut ! - <span class="invisible">467</span>
@@ -266,17 +275,18 @@
                         La porte était verrouillée mais disposait d'une serrure. Une petite clé permettrait sûrement de l'ouvrir, à condition d'en trouver une.
                     </p>
                     <p class="text-justify border-left border-dark pl-3">
-                        - Placez un jeton <span class="font-weight-bold">?</span> sur la porte H.
+                        - Placez un jeton <span class="font-weight-bold">?</span> sur la porte <span class="font-weight-bold">H</span>.
                     </p>
-                    <button type="button" class="btn btn-dark my-3">
+                    <button type="button" class="btn btn-dark my-3" id="btn467" onclick="suite118()">
                         La seule issue de la pièce est la porte E.
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid mt-5">
-            <div class="row">
+<!-- Le couloir vert -->
+        <div class="container-fluid d-none" id="118">
+            <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold">
                         - Le couloir vert - <span class="invisible">118</span>
@@ -311,23 +321,108 @@
                     <p class="text-justify">
                         Nous devions absolument quitter cet endroit avant que ce monstre ne parvienne à défoncer la porte.
                     </p>
-                    <button type="button" class="btn btn-dark my-3">
+                    <button type="button" class="btn btn-dark my-3" id="btn118_1" onclick="suite102()">
                         1 - Un étrange gargouillement provient de derrière la porte M.
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3">
+                    <button type="button" class="btn btn-dark mb-3" id="btn118_2" onclick="suite274()">
                         2 - Nous remarquons les grandes ramifications d'une plante passant sous la porte L.
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3">
+                    <button type="button" class="btn btn-dark mb-3" id="btn118_3" onclick="suite8()">
                         3 - À travers la serrure de la porte en fer rouillée (I), nous distinguons un jardin.
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid mt-5">
-            <div class="row">
+<!-- Embuscade dans les toilettes de l'horreur -->
+        <div class="container-fluid d-none" id="102">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold">
+                        - Embuscade dans les toilettes de l'horreur - <span class="invisible">102</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-5">
+                <div class="col-12">
+                    <p class="text-justify">
+                        {Le Brave} fut aspiré(e) dans ce qui ressemblait à des latrines sales. La porte se referma violement sur lui/elle sans nous laisser le temps de réagir. De l'autre côté, notre ami(e) était enfermé(e) dans un espace réduit avec quelque chose...
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - <span class="font-weight-bold">Créature mystérieuse : [attaque 2 ; santé 4]</span> (affecte uniquement l'Investigateur dans les toilettes).
+                        <br />
+                        - L'Investigateur ayant le <span class="font-weight-bold">Talkie-walkie</span> se Défend puis Attaque jusqu'à ce qu'il soit Assommé ou que la créature soit éliminée. Si l'Investigateur est Assommé, déplacez le jeton <span class="font-weight-bold">Panique</span> d'un cran en plus des malus normaux.
+                    </p>
+                    <p class="text-justify">
+                        Bang ! Bang ! Bang !
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn102" onclick="suite260()">
+                        On continue !
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Nouvelle voie -->
+        <div class="container-fluid d-none" id="260">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold">
+                        - Nouvelle voie - <span class="invisible">260</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-5">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Non sans difficulté, nous nous sommes débarrassés de l'abomination qui s'est enfuie à travers la fenêtre des toilettes.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Disposez la tuile <span class="font-weight-bold">3</span> en faisant coïncider les portes <span class="font-weight-bold">D-E</span> et <span class="font-weight-bold">E-D</span>.
+                        <br />
+                        - Placez un jeton <span class="font-weight-bold">Passage Secret</span> entre la zone <span class="font-weight-bold">3</span> et la zone <span class="font-weight-bold">2</span> de la nouvelle tuile (vous pouvez accéder à la zone 2 à travers ce passage.)
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn260_1" onclick="suite229()">
+                        1 - Nous empruntons le passage (vers la zone 2 de la tuile 3).
+                    </button>
+                    <button type="button" class="btn btn-dark my-3" id="btn260_2" onclick="suite274()">
+                        2 - Nous revenons sur nos pas et suivons l'épaisse ramification passant sous la porte L (zone 2 de la tuile 2).
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Sans équivoque -->
+        <div class="container-fluid d-none" id="274">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold">
+                        - Sans équivoque - <span class="invisible">274</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-5">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Une petite salle mais qui contient sûrement quelque chose d'utile.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Placez un jeton <span class="font-weight-bold">Trouvaille</span>.
+                        <br />
+                        - La porte de gauche semble verrouillée depuis l'autre côté. <span class="font-weight-bold">C</span> = jeton <span class="font-weight-bold">Barricade</span>.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn274" onclick="suite474()">
+                        Nous empruntons la porte D.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Jardin au clair de lune -->
+        <div class="container-fluid d-none" id="8">
+            <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold">
                         - Jardin au clair de lune - <span class="invisible">8</span>
@@ -342,16 +437,110 @@
                     <p class="text-justify border-left border-dark pl-3">
                         - Placez 2 jetons <span class="font-weight-bold">Indice</span>.
                     </p>
-                    <button type="button" class="btn btn-dark my-3">
+                    <button type="button" class="btn btn-dark my-3" id="btn8_1" onclick="suite253()">
                         1 - Dans un coin du jardin se trouve une statue avec un corps d'ange et un visage de démon. L'inspecter ?
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3">
+                    <button type="button" class="btn btn-dark mb-3" id="btn8_2" onclick="suite309()">
                         2 - Dans un autre coin du jardin se trouve une statue avec un corps de démon et un visage d'ange. L'inspecter ?
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3">
+                    <button type="button" class="btn btn-dark mb-3" id="btn8_3" onclick="suite7()">
                         3 - Nous revenons dans le corridor.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Golem ! -->
+        <div class="container-fluid d-none" id="253">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold">
+                        - Golem ! - <span class="invisible">253</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-5">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Alors que nous inspections la statue, nous n'avons pas fait attention au sifflement. Quand nous avons réalisé qu'elle s'était animée, il était trop tard !
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Aberration : <span class="font-weight-bold">Golem : [attaque 2 ; santé 4]</span>. La statue Attaque uniquement l'Investigateur ayant le <span class="font-weight-bold">Talkie-walkie</span>. Il doit se Défendre puis Attaquer. Renouvelez ce cycle jusqu'à ce qu'il soit Assommé ou que la créature soit éliminée.
+                    </p>
+                    <p class="text-justify">
+                        Je ne me souviens plus vraiment de la scène mais le monstre mit notre santé à l'épreuve. Nous ne nous sommes repris que lorsque {le Brave}, sautant par dessus la fontaine, brisa la statue en mille morceaux. Nous avons échangé des regards inquiets tandis que Daphné se penchait sur les décombres et y découvrait quelque chose.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Prenez la carte <span class="font-weight-bold">Spéciale 37</span>.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn253_1" onclick="suite309()">
+                        1 - L'autre statue a un visage d'un ange et le corps d'un démon. Récupérer un autre indice ? (Uniquement si vous ne l'avez pas déjà fait).
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn253_2" onclick="suite7()">
+                        2 - Nous retournons dans le corridor.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Anges et Démons -->
+        <div class="container-fluid d-none" id="309">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold">
+                        - Anges et Démons - <span class="invisible">309</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-5">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Cette statue avec le visage d'un ange et le corps d'un démon ne présageait rien de bon. Nous nous sommes approchés lentement. Au moment de l'inspecter, une voix semblant provenir directement des enfers résonna : <span class="font-italic">"Tu flotteras aussi ! Tu flotteras aussi ! Tu flotteras aussi !"</span> Puis Leila, horrifiée, donna une gifle à Mike : <span class="font-italic">"Tu te crois malin ?"</span>
+                        <br />
+                        <span class="font-italic">"Vous avez eu les chocottes, pas vrai ?"</span>
+                        <br />
+                        <span class="font-italic">"Mais quel idiot"</span>, souffla Daphné alors que Ray ricanait. La statue était froide au toucher. Lorsque j'essayais de la bouger, elle me sembla trop légère : <span class="font-italic">"Je pense qu'elle est creuse."</span>
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - L'Investigateur ayant le <span class="font-weight-bold">Talkie-walkie</span> fait un Test de <span class="font-weight-bold">[Force 2+]</span> pour briser la statue. S'il réussit, prenez <span class="font-weight-bold">deux cartes Trouvaille</span> et appliquez-en les effets positifs (aucun Test n'est requis). S'il échoue, piochez <span class="font-weight-bold">deux cartes Trouvaille</span> mais appliquez-en les effets négatifs.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn309_1" onclick="suite253()">
+                        1 - L'autre statue a un visage de démon et le corps d'un ange. Récupérer un autre indice ? (Uniquement si vous ne l'avez pas déjà fait).
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn309_2" onclick="suite7()">
+                        2 - Nous retournons dans le corridor.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Mais que se passe-t-il -->
+        <div class="container-fluid d-none" id="7">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold">
+                        - Mais que se passe-t-il - <span class="invisible">7</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-5">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Nous étions revenus dans le corridor lorsque... <span class="font-weight-bold">[Carte Évènement]</span>
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn7_1" onclick="suite46()">
+                        1 - Nous avons une bonne raison de revenir dans le Hall (tuile 1, zone 1) et franchissons la porte A.
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn7_2" onclick="suite102()">
+                        2 - Un étrange gargouillement provient de derrière la porte M.
+                    </button>
+                    <button type="button" class="btn btn-dark mb-3" id="btn7_3" onclick="suite274()">
+                        3 - Nous remarquons les grandes ramifications d'une plante passant sous la porte L.
                     </button>
                 </div>
             </div>
