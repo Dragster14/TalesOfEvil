@@ -60,65 +60,23 @@ function suite467() {
 }
 
 // - Le couloir vert -
-let v8 = document.getElementById('8');
-let vBtn118_1 = document.getElementById('btn118_1');
-let vBtn118_2 = document.getElementById('btn118_2');
-let vBtn118_3 = document.getElementById('btn118_3');
 
-function suite102() {
-    vHistoire.innerHTML += document.getElementById('102').innerHTML;
-    document.getElementById('btn8_1').disabled = true;
-    document.getElementById('btn8_2').disabled = true;
-    document.getElementById('btn8_3').disabled = true;
+// - Parloir - [Rotation Statues + résultat]
+function rotationStatue1() {
+    document.getElementById('rotate1').style.transform += 'rotate(90deg)';
 }
 
-function suite274() {
-    vHistoire.innerHTML += document.getElementById('274').innerHTML;
-    document.getElementById('btn8_1').disabled = true;
-    document.getElementById('btn8_2').disabled = true;
-    document.getElementById('btn8_3').disabled = true;
+function rotationStatue2() {
+    document.getElementById('rotate2').style.transform += 'rotate(90deg)';
 }
 
-function suite8() {
-    vHistoire.innerHTML += document.getElementById('8').innerHTML;
-    document.getElementById('btn8_1').disabled = true;
-    document.getElementById('btn8_2').disabled = true;
-    document.getElementById('btn8_3').disabled = true;
+function rotationStatue3() {
+    document.getElementById('rotate3').style.transform += 'rotate(90deg)';
 }
 
-// - Jardin au clair de lune -
-let v253 = document.getElementById('253');
-let v309 = document.getElementById('309');
-let v7 = document.getElementById('7');
-let vBtn8_1 = document.getElementById('btn8_1');
-let vBtn8_2 = document.getElementById('btn8_2');
-let vBtn8_3 = document.getElementById('btn8_3');
-let vBtn253_1 = document.getElementById('btn253_1');
-let vBtn253_2 = document.getElementById('btn253_2');
-let vBtn309_1 = document.getElementById('btn309_1');
-let vBtn309_2 = document.getElementById('btn309_2');
-
-function suite253() {
-    v253.classList.remove('d-none');
-    vBtn8_1.setAttribute('disabled', "");
-    vBtn8_2.setAttribute('disabled', "");
-    vBtn8_3.setAttribute('disabled', "");
-    vBtn309_1.setAttribute('disabled', "");
-}
-
-function suite309() {
-    v309.classList.remove('d-none'); 
-    vBtn8_1.setAttribute('disabled', "");
-    vBtn8_2.setAttribute('disabled', "");
-    vBtn8_3.setAttribute('disabled', "");
-    vBtn253_1.setAttribute('disabled', "");  
-}
-
-function suite7() {
-    v7.classList.remove('d-none');
-    vBtn8_1.setAttribute('disabled', "");
-    vBtn8_2.setAttribute('disabled', "");
-    vBtn8_3.setAttribute('disabled', "");
-    vBtn253_2.setAttribute('disabled', "");
-    vBtn309_2.setAttribute('disabled', "");
+function resultatStatues() {
+    document.getElementById('resultatStatues').classList.remove('d-none');
+    document.getElementById('btn58_resultat').disabled = true;
+    document.getElementById('btn58_1').disabled = false;
+    document.getElementById('btn58_2').disabled = false;
 }

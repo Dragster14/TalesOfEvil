@@ -8,3 +8,32 @@ body {
 p {
     line-height: 2em;
 }
+
+.container-statues {
+    height: 400px;
+    min-width: 198px;
+}
+
+.statues {
+    height: 120px;
+    width: 120px;
+}
+
+.fa {
+    font-size: 7em;
+}
+
+.statue-info:hover {
+    box-shadow: 0px 0px 8px #17a2b8;
+    cursor: pointer;
+}
+
+.statue-warning:hover {
+    box-shadow: 0px 0px 8px #ffc107;
+    cursor: pointer;
+}
+
+.statue-success:hover {
+    box-shadow: 0px 0px 8px #28a745;
+    cursor: pointer;
+}
