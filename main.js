@@ -1081,3 +1081,8 @@ function suite168() {
     vHistoire.innerHTML += document.getElementById('168').innerHTML;
     document.getElementById('btn65').disabled = true;
 }
+
+// Audio
+function btnAudio() {
+    window.open('https://youtu.be/EK1TJ8zS-ms', '_blank');
+}
