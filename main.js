@@ -674,7 +674,7 @@ function suite146() {
 }
 
 // - Jouer dans le noir - & - C'est dégoûtant ! - & - C'est quoi ce bordel ? - & - Oh ! - & - Qu'est-ce que c'est ? - & - Hein ? - & - Claustrophobie -
-function suite348() {
+function suite348_436() {
     vHistoire.innerHTML += document.getElementById('348').innerHTML;
     document.getElementById('btn436_1').disabled = true;
     document.getElementById('btn436_2').disabled = true;
@@ -682,6 +682,10 @@ function suite348() {
     document.getElementById('btn436_4').disabled = true;
     document.getElementById('btn436_5').disabled = true;
     document.getElementById('btn436_6').disabled = true;
+}
+
+function suite348_69() {
+    vHistoire.innerHTML += document.getElementById('348').innerHTML;
     document.getElementById('btn69_1').disabled = true;
     document.getElementById('btn69_2').disabled = true;
     document.getElementById('btn69_3').disabled = true;
@@ -689,6 +693,10 @@ function suite348() {
     document.getElementById('btn69_5').disabled = true;
     document.getElementById('btn69_6').disabled = true;
     document.getElementById('btn69_7').disabled = true;
+}
+
+function suite348_432() {
+    vHistoire.innerHTML += document.getElementById('348').innerHTML;
     document.getElementById('btn432_1').disabled = true;
     document.getElementById('btn432_2').disabled = true;
     document.getElementById('btn432_3').disabled = true;
@@ -696,6 +704,10 @@ function suite348() {
     document.getElementById('btn432_5').disabled = true;
     document.getElementById('btn432_6').disabled = true;
     document.getElementById('btn432_7').disabled = true;
+}
+    
+function suite348_363() {
+    vHistoire.innerHTML += document.getElementById('348').innerHTML;
     document.getElementById('btn363_1').disabled = true;
     document.getElementById('btn363_2').disabled = true;
     document.getElementById('btn363_3').disabled = true;
@@ -703,6 +715,10 @@ function suite348() {
     document.getElementById('btn363_5').disabled = true;
     document.getElementById('btn363_6').disabled = true;
     document.getElementById('btn363_7').disabled = true;
+}
+    
+function suite348_386() {
+    vHistoire.innerHTML += document.getElementById('348').innerHTML;
     document.getElementById('btn386_1').disabled = true;
     document.getElementById('btn386_2').disabled = true;
     document.getElementById('btn386_3').disabled = true;
@@ -710,6 +726,10 @@ function suite348() {
     document.getElementById('btn386_5').disabled = true;
     document.getElementById('btn386_6').disabled = true;
     document.getElementById('btn386_7').disabled = true;
+}
+    
+function suite348_62() {
+    vHistoire.innerHTML += document.getElementById('348').innerHTML;
     document.getElementById('btn62_1').disabled = true;
     document.getElementById('btn62_2').disabled = true;
     document.getElementById('btn62_3').disabled = true;
@@ -719,7 +739,7 @@ function suite348() {
     document.getElementById('btn62_7').disabled = true;
 }
 
-function suite69() {
+function suite69_436() {
     vHistoire.innerHTML += document.getElementById('69').innerHTML;
     document.getElementById('btn436_1').disabled = true;
     document.getElementById('btn436_2').disabled = true;
@@ -727,6 +747,10 @@ function suite69() {
     document.getElementById('btn436_4').disabled = true;
     document.getElementById('btn436_5').disabled = true;
     document.getElementById('btn436_6').disabled = true;
+}
+
+function suite69_348() {
+    vHistoire.innerHTML += document.getElementById('69').innerHTML;
     document.getElementById('btn348_1').disabled = true;
     document.getElementById('btn348_2').disabled = true;
     document.getElementById('btn348_3').disabled = true;
@@ -734,6 +758,10 @@ function suite69() {
     document.getElementById('btn348_5').disabled = true;
     document.getElementById('btn348_6').disabled = true;
     document.getElementById('btn348_7').disabled = true;
+}
+
+function suite69_432() {
+    vHistoire.innerHTML += document.getElementById('69').innerHTML;
     document.getElementById('btn432_1').disabled = true;
     document.getElementById('btn432_2').disabled = true;
     document.getElementById('btn432_3').disabled = true;
@@ -741,6 +769,10 @@ function suite69() {
     document.getElementById('btn432_5').disabled = true;
     document.getElementById('btn432_6').disabled = true;
     document.getElementById('btn432_7').disabled = true;
+}
+
+function suite69_363() {
+    vHistoire.innerHTML += document.getElementById('69').innerHTML;
     document.getElementById('btn363_1').disabled = true;
     document.getElementById('btn363_2').disabled = true;
     document.getElementById('btn363_3').disabled = true;
@@ -748,6 +780,10 @@ function suite69() {
     document.getElementById('btn363_5').disabled = true;
     document.getElementById('btn363_6').disabled = true;
     document.getElementById('btn363_7').disabled = true;
+}
+    
+function suite69_386() {
+    vHistoire.innerHTML += document.getElementById('69').innerHTML;
     document.getElementById('btn386_1').disabled = true;
     document.getElementById('btn386_2').disabled = true;
     document.getElementById('btn386_3').disabled = true;
@@ -755,6 +791,10 @@ function suite69() {
     document.getElementById('btn386_5').disabled = true;
     document.getElementById('btn386_6').disabled = true;
     document.getElementById('btn386_7').disabled = true;
+}
+
+function suite69_62() {
+    vHistoire.innerHTML += document.getElementById('69').innerHTML;
     document.getElementById('btn62_1').disabled = true;
     document.getElementById('btn62_2').disabled = true;
     document.getElementById('btn62_3').disabled = true;
@@ -764,7 +804,7 @@ function suite69() {
     document.getElementById('btn62_7').disabled = true;
 }
 
-function suite432() {
+function suite432_436() {
     vHistoire.innerHTML += document.getElementById('432').innerHTML;
     document.getElementById('btn436_1').disabled = true;
     document.getElementById('btn436_2').disabled = true;
@@ -772,6 +812,10 @@ function suite432() {
     document.getElementById('btn436_4').disabled = true;
     document.getElementById('btn436_5').disabled = true;
     document.getElementById('btn436_6').disabled = true;
+}
+
+function suite432_348() {
+    vHistoire.innerHTML += document.getElementById('432').innerHTML;
     document.getElementById('btn348_1').disabled = true;
     document.getElementById('btn348_2').disabled = true;
     document.getElementById('btn348_3').disabled = true;
@@ -779,6 +823,10 @@ function suite432() {
     document.getElementById('btn348_5').disabled = true;
     document.getElementById('btn348_6').disabled = true;
     document.getElementById('btn348_7').disabled = true;
+}
+
+function suite432_69() {
+    vHistoire.innerHTML += document.getElementById('432').innerHTML;
     document.getElementById('btn69_1').disabled = true;
     document.getElementById('btn69_2').disabled = true;
     document.getElementById('btn69_3').disabled = true;
@@ -786,6 +834,10 @@ function suite432() {
     document.getElementById('btn69_5').disabled = true;
     document.getElementById('btn69_6').disabled = true;
     document.getElementById('btn69_7').disabled = true;
+}
+
+function suite432_363() {
+    vHistoire.innerHTML += document.getElementById('432').innerHTML;
     document.getElementById('btn363_1').disabled = true;
     document.getElementById('btn363_2').disabled = true;
     document.getElementById('btn363_3').disabled = true;
@@ -793,6 +845,10 @@ function suite432() {
     document.getElementById('btn363_5').disabled = true;
     document.getElementById('btn363_6').disabled = true;
     document.getElementById('btn363_7').disabled = true;
+}
+
+function suite432_386() {
+    vHistoire.innerHTML += document.getElementById('432').innerHTML;
     document.getElementById('btn386_1').disabled = true;
     document.getElementById('btn386_2').disabled = true;
     document.getElementById('btn386_3').disabled = true;
@@ -800,6 +856,10 @@ function suite432() {
     document.getElementById('btn386_5').disabled = true;
     document.getElementById('btn386_6').disabled = true;
     document.getElementById('btn386_7').disabled = true;
+}
+
+function suite432_62() {
+    vHistoire.innerHTML += document.getElementById('432').innerHTML;
     document.getElementById('btn62_1').disabled = true;
     document.getElementById('btn62_2').disabled = true;
     document.getElementById('btn62_3').disabled = true;
@@ -809,7 +869,7 @@ function suite432() {
     document.getElementById('btn62_7').disabled = true;
 }
 
-function suite363() {
+function suite363_436() {
     vHistoire.innerHTML += document.getElementById('363').innerHTML;
     document.getElementById('btn436_1').disabled = true;
     document.getElementById('btn436_2').disabled = true;
@@ -817,6 +877,10 @@ function suite363() {
     document.getElementById('btn436_4').disabled = true;
     document.getElementById('btn436_5').disabled = true;
     document.getElementById('btn436_6').disabled = true;
+}
+
+function suite363_348() {
+    vHistoire.innerHTML += document.getElementById('363').innerHTML;
     document.getElementById('btn348_1').disabled = true;
     document.getElementById('btn348_2').disabled = true;
     document.getElementById('btn348_3').disabled = true;
@@ -824,6 +888,10 @@ function suite363() {
     document.getElementById('btn348_5').disabled = true;
     document.getElementById('btn348_6').disabled = true;
     document.getElementById('btn348_7').disabled = true;
+}
+
+function suite363_69() {
+    vHistoire.innerHTML += document.getElementById('363').innerHTML;
     document.getElementById('btn69_1').disabled = true;
     document.getElementById('btn69_2').disabled = true;
     document.getElementById('btn69_3').disabled = true;
@@ -831,6 +899,10 @@ function suite363() {
     document.getElementById('btn69_5').disabled = true;
     document.getElementById('btn69_6').disabled = true;
     document.getElementById('btn69_7').disabled = true;
+}
+    
+function suite363_432() {
+    vHistoire.innerHTML += document.getElementById('363').innerHTML;
     document.getElementById('btn432_1').disabled = true;
     document.getElementById('btn432_2').disabled = true;
     document.getElementById('btn432_3').disabled = true;
@@ -838,6 +910,10 @@ function suite363() {
     document.getElementById('btn432_5').disabled = true;
     document.getElementById('btn432_6').disabled = true;
     document.getElementById('btn432_7').disabled = true;
+}
+
+function suite363_386() {
+    vHistoire.innerHTML += document.getElementById('363').innerHTML;
     document.getElementById('btn386_1').disabled = true;
     document.getElementById('btn386_2').disabled = true;
     document.getElementById('btn386_3').disabled = true;
@@ -845,6 +921,10 @@ function suite363() {
     document.getElementById('btn386_5').disabled = true;
     document.getElementById('btn386_6').disabled = true;
     document.getElementById('btn386_7').disabled = true;
+}
+
+function suite363_62() {
+    vHistoire.innerHTML += document.getElementById('363').innerHTML;
     document.getElementById('btn62_1').disabled = true;
     document.getElementById('btn62_2').disabled = true;
     document.getElementById('btn62_3').disabled = true;
@@ -854,7 +934,7 @@ function suite363() {
     document.getElementById('btn62_7').disabled = true;
 }
 
-function suite386() {
+function suite386_436() {
     vHistoire.innerHTML += document.getElementById('386').innerHTML;
     document.getElementById('btn436_1').disabled = true;
     document.getElementById('btn436_2').disabled = true;
@@ -862,6 +942,10 @@ function suite386() {
     document.getElementById('btn436_4').disabled = true;
     document.getElementById('btn436_5').disabled = true;
     document.getElementById('btn436_6').disabled = true;
+}
+
+function suite386_348() {
+    vHistoire.innerHTML += document.getElementById('386').innerHTML;
     document.getElementById('btn348_1').disabled = true;
     document.getElementById('btn348_2').disabled = true;
     document.getElementById('btn348_3').disabled = true;
@@ -869,6 +953,10 @@ function suite386() {
     document.getElementById('btn348_5').disabled = true;
     document.getElementById('btn348_6').disabled = true;
     document.getElementById('btn348_7').disabled = true;
+}
+
+function suite386_69() {
+    vHistoire.innerHTML += document.getElementById('386').innerHTML;
     document.getElementById('btn69_1').disabled = true;
     document.getElementById('btn69_2').disabled = true;
     document.getElementById('btn69_3').disabled = true;
@@ -876,6 +964,10 @@ function suite386() {
     document.getElementById('btn69_5').disabled = true;
     document.getElementById('btn69_6').disabled = true;
     document.getElementById('btn69_7').disabled = true;
+}
+
+function suite386_432() {
+    vHistoire.innerHTML += document.getElementById('386').innerHTML;
     document.getElementById('btn432_1').disabled = true;
     document.getElementById('btn432_2').disabled = true;
     document.getElementById('btn432_3').disabled = true;
@@ -883,6 +975,10 @@ function suite386() {
     document.getElementById('btn432_5').disabled = true;
     document.getElementById('btn432_6').disabled = true;
     document.getElementById('btn432_7').disabled = true;
+}
+
+function suite386_363() {
+    vHistoire.innerHTML += document.getElementById('386').innerHTML;
     document.getElementById('btn363_1').disabled = true;
     document.getElementById('btn363_2').disabled = true;
     document.getElementById('btn363_3').disabled = true;
@@ -890,6 +986,10 @@ function suite386() {
     document.getElementById('btn363_5').disabled = true;
     document.getElementById('btn363_6').disabled = true;
     document.getElementById('btn363_7').disabled = true;
+}
+
+function suite386_62() {
+    vHistoire.innerHTML += document.getElementById('386').innerHTML;
     document.getElementById('btn62_1').disabled = true;
     document.getElementById('btn62_2').disabled = true;
     document.getElementById('btn62_3').disabled = true;
@@ -899,7 +999,7 @@ function suite386() {
     document.getElementById('btn62_7').disabled = true;
 }
 
-function suite62() {
+function suite62_436() {
     vHistoire.innerHTML += document.getElementById('62').innerHTML;
     document.getElementById('btn436_1').disabled = true;
     document.getElementById('btn436_2').disabled = true;
@@ -907,6 +1007,10 @@ function suite62() {
     document.getElementById('btn436_4').disabled = true;
     document.getElementById('btn436_5').disabled = true;
     document.getElementById('btn436_6').disabled = true;
+}
+
+function suite62_348() {
+    vHistoire.innerHTML += document.getElementById('62').innerHTML;
     document.getElementById('btn348_1').disabled = true;
     document.getElementById('btn348_2').disabled = true;
     document.getElementById('btn348_3').disabled = true;
@@ -914,6 +1018,10 @@ function suite62() {
     document.getElementById('btn348_5').disabled = true;
     document.getElementById('btn348_6').disabled = true;
     document.getElementById('btn348_7').disabled = true;
+}
+
+function suite62_69() {
+    vHistoire.innerHTML += document.getElementById('62').innerHTML;
     document.getElementById('btn69_1').disabled = true;
     document.getElementById('btn69_2').disabled = true;
     document.getElementById('btn69_3').disabled = true;
@@ -921,6 +1029,10 @@ function suite62() {
     document.getElementById('btn69_5').disabled = true;
     document.getElementById('btn69_6').disabled = true;
     document.getElementById('btn69_7').disabled = true;
+}
+
+function suite62_432() {
+    vHistoire.innerHTML += document.getElementById('62').innerHTML;
     document.getElementById('btn432_1').disabled = true;
     document.getElementById('btn432_2').disabled = true;
     document.getElementById('btn432_3').disabled = true;
@@ -928,6 +1040,10 @@ function suite62() {
     document.getElementById('btn432_5').disabled = true;
     document.getElementById('btn432_6').disabled = true;
     document.getElementById('btn432_7').disabled = true;
+}
+
+function suite62_363() {
+    vHistoire.innerHTML += document.getElementById('62').innerHTML;
     document.getElementById('btn363_1').disabled = true;
     document.getElementById('btn363_2').disabled = true;
     document.getElementById('btn363_3').disabled = true;
@@ -935,6 +1051,10 @@ function suite62() {
     document.getElementById('btn363_5').disabled = true;
     document.getElementById('btn363_6').disabled = true;
     document.getElementById('btn363_7').disabled = true;
+}
+
+function suite62_386() {
+    vHistoire.innerHTML += document.getElementById('62').innerHTML;
     document.getElementById('btn386_1').disabled = true;
     document.getElementById('btn386_2').disabled = true;
     document.getElementById('btn386_3').disabled = true;
