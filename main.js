@@ -1084,5 +1084,5 @@ function suite168() {
 
 // Audio
 function btnAudio() {
-    window.open('https://youtu.be/EK1TJ8zS-ms', '_blank');
+    window.open('https://www.youtube.com/watch?v=BuhiXmnMYPA&ab_channel=AmbientWorlds', '_blank');
 }
