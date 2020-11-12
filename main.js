@@ -79,6 +79,7 @@ function suite448() {
 // - Chapitre 1 - & - Zut ! -
 function suite118() {
     document.getElementById('opacite448').classList.remove('opacite');
+    document.getElementById('opacite467').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('118').innerHTML;
     document.getElementById('opacite118').classList.add('opacite');
     document.getElementById('btn448_1').disabled = true;
@@ -96,7 +97,9 @@ function suite467() {
 
 // - Le couloir vert - & - Nouvelle voie - & - Mais que se passe-t-il ? - & - Retour dans le couloir -
 function suite102() {
+    document.getElementById('opacite118').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('102').innerHTML;
+    document.getElementById('opacite102').classList.add('opacite');
     document.getElementById('btn118_1').disabled = true;
     document.getElementById('btn118_2').disabled = true;
     document.getElementById('btn118_3').disabled = true;
@@ -108,7 +111,9 @@ function suite102() {
 }
 
 function suite274() {
+    document.getElementById('opacite118').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('274').innerHTML;
+    document.getElementById('opacite274').classList.add('opacite');
     document.getElementById('btn118_1').disabled = true;
     document.getElementById('btn118_2').disabled = true;
     document.getElementById('btn118_3').disabled = true;
@@ -122,7 +127,9 @@ function suite274() {
 }
 
 function suite8() {
+    document.getElementById('opacite118').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('8').innerHTML;
+    document.getElementById('opacite8').classList.add('opacite');
     document.getElementById('btn118_1').disabled = true;
     document.getElementById('btn118_2').disabled = true;
     document.getElementById('btn118_3').disabled = true;
@@ -130,20 +137,26 @@ function suite8() {
 
 // - Embuscade dans les toilettes de l'horreur -
 function suite260() {
+    document.getElementById('opacite102').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('260').innerHTML;
+    document.getElementById('opacite260').classList.add('opacite');
     document.getElementById('btn102').disabled = true;
 }
 
 // - Nouvelle voie -
 function suite229() {
+    document.getElementById('opacite260').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('229').innerHTML;
+    document.getElementById('opacite229').classList.add('opacite');
     document.getElementById('btn260_1').disabled = true;
     document.getElementById('btn260_2').disabled = true;
 }
 
 // - L'allée - & - La brume - & - L'allée - & - Mais qu'est-ce que... - & - Chargez ! - & - Ça se rapproche ! -
 function suite240() {
+    document.getElementById('opacite229').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('240').innerHTML;
+    document.getElementById('opacite240').classList.add('opacite');
     document.getElementById('btn229_1').disabled = true;
     document.getElementById('btn229_2').disabled = true;
     document.getElementById('btn379_1').disabled = true;
@@ -161,7 +174,9 @@ function suite240() {
 }
 
 function suite379() {
+    document.getElementById('opacite229').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('379').innerHTML;
+    document.getElementById('opacite379').classList.add('opacite');
     document.getElementById('btn229_1').disabled = true;
     document.getElementById('btn229_2').disabled = true;
     document.getElementById('btn474_1').disabled = true;
@@ -1233,7 +1248,9 @@ function suite20() {
 
 // - Le Bureau -
 function suite168() {
+    document.getElementById('opacite65').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('168').innerHTML;
+    document.getElementById('opacite168').classList.add('opacite');
     document.getElementById('btn65').disabled = true;
 }
 
