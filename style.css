@@ -1,8 +1,13 @@
-body {
+html, body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     max-width: 2560px;
     margin: auto;
+    scroll-behavior: smooth;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 p {
@@ -25,15 +30,12 @@ p {
 
 .statue-info:hover {
     box-shadow: 0px 0px 8px #17a2b8;
-    cursor: pointer;
 }
 
 .statue-warning:hover {
     box-shadow: 0px 0px 8px #ffc107;
-    cursor: pointer;
 }
 
 .statue-success:hover {
     box-shadow: 0px 0px 8px #28a745;
-    cursor: pointer;
 }

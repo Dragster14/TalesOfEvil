@@ -1,5 +1,14 @@
 let vHistoire = document.getElementById('histoire');
 
+// Sélection chapitre
+/*function partieInit() {
+    vHistoire.innerHTML = document.getElementById('').innerHTML;
+}*/
+
+function chap1() {
+    vHistoire.innerHTML = document.getElementById('40').innerHTML;
+}
+
 // - Au commencement - & - Ah ! -
 function suite225() {
     vHistoire.innerHTML += document.getElementById('225').innerHTML;

@@ -20,8 +20,67 @@
         </header>
 <!-- Header-Fin -->
 
-<!-- Au commencement -->
+<!-- Menu -->
         <article class="container-fluid mt-5">
+            <div class="row text-center">
+                <div class="col-md-6 my-3">
+                    <h4 class="h5 font-weight-bold">
+                        - Une partie d'initiation&nbsp;? -
+                    </h4>
+                    <button type="button" class="btn btn-info mt-3" onclick="partieInit()">
+                        C'est par ici !
+                    </button>
+                </div>
+                <div class="col-md-6 my-3">
+                    <h4 class="h5 font-weight-bold">
+                        - Choisir un chapitre&nbsp;? -
+                    </h4>
+                    <div class="dropdown">
+                        <button class="btn btn-info dropdown-toggle mt-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            C'est par là :
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <span class="dropdown-item pointer" href="#" onclick="chap1()">Chapitre 1</span>
+                            <span class="dropdown-item pointer" href="#" onclick="chap2()">Chapitre 2</span>
+                            <span class="dropdown-item pointer" href="#" onclick="chap3()">Chapitre 3</span>
+                            <span class="dropdown-item pointer" href="#" onclick="chap4()">Chapitre 4</span>
+                            <span class="dropdown-item pointer" href="#" onclick="chap5()">Chapitre 5</span>
+                            <span class="dropdown-item pointer" href="#" onclick="chap6()">Chapitre 6</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <hr class="bg-secondary w-75 my-5">
+                </div>
+            </div>
+        </article>
+<!-- Menu-Fin -->
+
+<!-- Bienvenue + histoire -->
+        <article class="container-fluid my-5">
+            <div class="row px-sm-5">
+                <div class="col-12">
+                    <h4 class="h3 text-danger">
+                        Bienvenue dans le monde de <strong>Tales of Evil&nbsp;!</strong>
+                    </h4>
+                    <p class="text-justify mt-3">
+                        Si vous aimez l'horreur et les jeux de survie, vous êtes au bon endroit. Rentrez dans la peau d'un membre de <span class="font-weight-bold">Pizza & Investigation</span> et plongez au cœur des années 80. Vous allez pouvoir vivre les aventures dont vous rêviez juste en ouvrant cette boîte&nbsp;! <strong>Tales of Evil</strong> est un jeu pour 1 à 6 Braves qui deviennent membres du groupe de jeunes détectives. Durant chaque scénario, ceux-ci s'aventurent dans un lieu dont ils doivent ressortir vivant en essayant d'atteindre leurs objectifs&nbsp;! Les Investigateurs devront faire preuve de courage et d'intelligence pour s'opposer au Mal qui réside dans la demeure qu'ils visitent. Et c'est là que les Braves entrent en jeu car <strong>Tales of Evil</strong> est une aventure dont le cours dépend de vos décisions et qui peut s'achever de bien des manières.
+                        <br />
+                        Vous êtes les acteurs de l'histoire et les seuls responsables de votre destin&nbsp;!
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <div class="container-fluid my-5" id="histoire"></div>
+<!-- Bienvenue + histoire-Fin -->
+
+<!-- Les possibilités - Chapite 1 -->
+
+<!-- Au commencement -->
+        <div class="container-fluid d-none" id="40">
             <div class="row">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold text-break">
@@ -60,12 +119,7 @@
                     </button>
                 </div>
             </div>
-        </article>
-<!-- Au commencement-Fin -->
-
-        <div class="container-fluid my-5" id="histoire"></div>
-
-<!-- Les possibilités -->
+        </div>
 
 <!-- Ah ! -->
         <div class="container-fluid d-none" id="225">
@@ -930,7 +984,7 @@
                     <div class="row px-3">
                         <div class="col-lg-6 border border-dark my-5 container-statues">
                             <div class="w-100 d-flex justify-content-around my-5">
-                                <div class="border border-info rounded text-center statues statue-info" onclick="rotationStatue1()">
+                                <div class="border border-info rounded text-center statues statue-info pointer" onclick="rotationStatue1()">
                                     <i id="rotate1" class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                                 </div>
                                 <div class="border border-danger rounded text-center statues">
@@ -938,10 +992,10 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-around my-5">
-                                <div class="border border-warning rounded text-center statues statue-warning" onclick="rotationStatue2()">
+                                <div class="border border-warning rounded text-center statues statue-warning pointer" onclick="rotationStatue2()">
                                     <i id="rotate2" class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                                 </div>
-                                <div class="border border-success rounded text-center statues statue-success" onclick="rotationStatue3()">
+                                <div class="border border-success rounded text-center statues statue-success pointer" onclick="rotationStatue3()">
                                     <i id="rotate3" class="fa fa-arrow-circle-left" aria-hidden="true"></i>
                                 </div>
                             </div>
@@ -3151,23 +3205,35 @@
                 </div>
             </div>
         </div>
-<!-- Les possibilités-Fin -->
+<!-- Les possibilités - Chapitre 1-Fin -->
 
-<!-- Audio -->
+<!-- Audio + retour haut -->
         <article class="container-fluid">
             <div class="row">
-                <div class="col-12 text-center">
-                    <hr class="bg-secondary w-50 mt-5">
+                <div class="col-12">
+                    <hr class="bg-secondary w-75 my-5">
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 my-3">
                     <h5 class="font-weight-bold">
                         - Une petite musique d'ambiance&nbsp;? -
                     </h5>
-                    <button type="button" class="btn btn-info my-3" onclick="btnAudio()">
+                    <button type="button" class="btn btn-info mt-3" onclick="btnAudio()">
                         C'est par ici !
                     </button>
                 </div>
+                <div class="col-md-6 my-3">
+                    <h5 class="font-weight-bold">
+                        - Retour en haut de page&nbsp;? -
+                    </h5>
+                    <a href="#" class="btn btn-info mt-3">
+                        Et hop !
+                    </a>
+                </div>
             </div>
         </article>
-<!-- Audio-Fin -->
+<!-- Audio + retour haut-Fin -->
 
 <!-- Footer -->
         <footer>
