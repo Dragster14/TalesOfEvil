@@ -7,17 +7,23 @@ let vHistoire = document.getElementById('histoire');
 
 function chap1() {
     vHistoire.innerHTML = document.getElementById('40').innerHTML;
+    document.getElementById('opacite40').classList.add('opacite');
 }
 
 // - Au commencement - & - Ah ! -
 function suite225() {
+    document.getElementById('opacite40').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('225').innerHTML;
+    document.getElementById('opacite225').classList.add('opacite');
     document.getElementById('btn40_1').disabled = true;
     document.getElementById('btn40_2').disabled = true;
 }
 
 function suite163() {
+    document.getElementById('opacite40').classList.remove('opacite');
+    document.getElementById('opacite225').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('163').innerHTML;
+    document.getElementById('opacite163').classList.add('opacite');
     document.getElementById('btn40_1').disabled = true;
     document.getElementById('btn40_2').disabled = true;
     document.getElementById('btn225').disabled = true;
@@ -25,6 +31,7 @@ function suite163() {
 
 // - Nous avons une affaire ! -
 function suite88E() {
+    document.getElementById('opacite163').classList.remove('opacite');
     let vInput163 = document.getElementById('input163');
 
     if (vInput163.value != 'peter.spencer.escape@gmail.com') {
@@ -36,6 +43,7 @@ function suite88E() {
         vInput163.style.borderColor = "green";
         vInput163.style.boxShadow = "";
         vHistoire.innerHTML += document.getElementById('88E').innerHTML;
+        document.getElementById('opacite88E').classList.add('opacite');
         vInput163.value = "";
         document.getElementById('btn163').disabled = true;
         document.getElementById('btn163-resultat').disabled = true;
@@ -46,7 +54,7 @@ function suite88E() {
 
 function emailResultat() {
     let vInput163 = document.getElementById('input163');
-    
+
     vInput163.value = 'peter.spencer.escape@gmail.com';
     vInput163.style.borderColor = "";
     vInput163.style.boxShadow = "";
@@ -54,26 +62,34 @@ function emailResultat() {
 
 // - Email -
 function suite30() {
+    document.getElementById('opacite88E').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('30').innerHTML;
+    document.getElementById('opacite30').classList.add('opacite');
     document.getElementById('btn88E').disabled = true;
 }
 
 // - Nous sommes sur la bonne voie -
 function suite448() {
+    document.getElementById('opacite30').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('448').innerHTML;
+    document.getElementById('opacite448').classList.add('opacite');
     document.getElementById('btn30').disabled = true;
 }
 
 // - Chapitre 1 - & - Zut ! -
 function suite118() {
+    document.getElementById('opacite448').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('118').innerHTML;
+    document.getElementById('opacite118').classList.add('opacite');
     document.getElementById('btn448_1').disabled = true;
     document.getElementById('btn448_2').disabled = true;
     document.getElementById('btn467').disabled = true;
 }
 
 function suite467() {
+    document.getElementById('opacite448').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('467').innerHTML;
+    document.getElementById('opacite467').classList.add('opacite');
     document.getElementById('btn448_1').disabled = true;
     document.getElementById('btn448_2').disabled = true;
 }
