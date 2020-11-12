@@ -36,10 +36,20 @@ function suite88E() {
         vInput163.style.borderColor = "green";
         vInput163.style.boxShadow = "";
         vHistoire.innerHTML += document.getElementById('88E').innerHTML;
+        vInput163.value = "";
         document.getElementById('btn163').disabled = true;
+        document.getElementById('btn163-resultat').disabled = true;
         document.getElementById('input163').disabled = true;
         document.getElementById('input163').setAttribute("placeholder", 'Bien joué ! - peter.spencer.escape@gmail.com -');
     }
+}
+
+function emailResultat() {
+    let vInput163 = document.getElementById('input163');
+    
+    vInput163.value = 'peter.spencer.escape@gmail.com';
+    vInput163.style.borderColor = "";
+    vInput163.style.boxShadow = "";
 }
 
 // - Email -

@@ -39,3 +39,19 @@ p {
 .statue-success:hover {
     box-shadow: 0px 0px 8px #28a745;
 }
+
+.opacite {
+    animation-name: opacite;
+    animation-duration: 1.9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes opacite {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -40,12 +40,17 @@
                             C'est par là :
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <span class="dropdown-item pointer" href="#" onclick="chap1()">Chapitre 1</span>
-                            <span class="dropdown-item pointer" href="#" onclick="chap2()">Chapitre 2</span>
-                            <span class="dropdown-item pointer" href="#" onclick="chap3()">Chapitre 3</span>
-                            <span class="dropdown-item pointer" href="#" onclick="chap4()">Chapitre 4</span>
-                            <span class="dropdown-item pointer" href="#" onclick="chap5()">Chapitre 5</span>
-                            <span class="dropdown-item pointer" href="#" onclick="chap6()">Chapitre 6</span>
+                            <span class="dropdown-item pointer"  onclick="chap1()">Chapitre 1</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item pointer"  onclick="chap2()">Chapitre 2</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item pointer"  onclick="chap3()">Chapitre 3</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item pointer"  onclick="chap4()">Chapitre 4</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item pointer"  onclick="chap5()">Chapitre 5</span>
+                            <div class="dropdown-divider"></div>
+                            <span class="dropdown-item pointer"  onclick="chap6()">Chapitre 6</span>
                         </div>
                     </div>
                 </div>
@@ -59,7 +64,7 @@
 <!-- Menu-Fin -->
 
 <!-- Bienvenue + histoire -->
-        <article class="container-fluid my-5">
+        <article class="container-fluid my-5 opacite">
             <div class="row px-sm-5">
                 <div class="col-12">
                     <h4 class="h3 text-danger">
@@ -185,7 +190,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row px-5">
+            <div class="row px-sm-5">
                 <div class="col-lg-6">
                     <form>
                         <div class="form-group">
@@ -193,6 +198,9 @@
                         </div>
                         <button type="button" class="btn btn-dark mb-3" id="btn163" onclick="suite88E()">
                             Suggérer
+                        </button>
+                        <button type="button" class="btn btn-dark mb-3 ml-sm-5" id="btn163-resultat" onclick="emailResultat()">
+                            Solution
                         </button>
                     </form>
                 </div>
