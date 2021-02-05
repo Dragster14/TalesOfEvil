@@ -167,13 +167,16 @@ function suite122() {
     document.getElementById('btn97_2').disabled = true;
 }
 
-// - Promenade au clair de lune -
+// - Promenade au clair de lune (207) - & - Promenade au clair de lune (357) -
 function suite454() {
     document.getElementById('opacite207').classList.remove('opacite');
+    document.getElementById('opacite357').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('454').innerHTML;
     document.getElementById('btn207_1').disabled = true;
     document.getElementById('btn207_2').disabled = true;
     document.getElementById('btn207_3').disabled = true;
+    document.getElementById('btn357_1').disabled = true;
+    document.getElementById('btn357_2').disabled = true;
 }
 
 function suite424() {
@@ -186,10 +189,13 @@ function suite424() {
 
 function suite319() {
     document.getElementById('opacite207').classList.remove('opacite');
+    document.getElementById('opacite357').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('319').innerHTML;
     document.getElementById('btn207_1').disabled = true;
     document.getElementById('btn207_2').disabled = true;
     document.getElementById('btn207_3').disabled = true;
+    document.getElementById('btn357_1').disabled = true;
+    document.getElementById('btn357_2').disabled = true;
 }
 
 // - Les Livres Vampires (303) - & - Les Livres Vampires (122) -
@@ -199,4 +205,51 @@ function suite109() {
     vHistoire.innerHTML += document.getElementById('109').innerHTML;
     document.getElementById('btn303').disabled = true;
     document.getElementById('btn122').disabled = true;
+}
+
+// - Cour intérieure -
+function suite412() {
+    document.getElementById('opacite109').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('412').innerHTML;
+    document.getElementById('btn109_1').disabled = true;
+    document.getElementById('btn109_2').disabled = true;
+}
+
+function suite341() {
+    document.getElementById('opacite109').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('341').innerHTML;
+    document.getElementById('btn109_1').disabled = true;
+    document.getElementById('btn109_2').disabled = true;
+}
+
+// - Où est-ce qu'on est ? -
+function suite357() {
+    document.getElementById('opacite412').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('357').innerHTML;
+    document.getElementById('btn412').disabled = true;
+}
+
+// - Tremblement de terre ? -
+function suite204() {
+    document.getElementById('opacite341').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('204').innerHTML;
+    document.getElementById('btn341_1').disabled = true;
+    document.getElementById('btn341_2').disabled = true;
+    document.getElementById('btn341_3').disabled = true;
+}
+
+function suite179() {
+    document.getElementById('opacite341').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('179').innerHTML;
+    document.getElementById('btn341_1').disabled = true;
+    document.getElementById('btn341_2').disabled = true;
+    document.getElementById('btn341_3').disabled = true;
+}
+
+function suite366() {
+    document.getElementById('opacite341').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('366').innerHTML;
+    document.getElementById('btn341_1').disabled = true;
+    document.getElementById('btn341_2').disabled = true;
+    document.getElementById('btn341_3').disabled = true;
 }

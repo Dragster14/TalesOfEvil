@@ -491,47 +491,194 @@
             </div>
         </div>
 
-<!-- Court intérieure -->
-        <div class="container-fluid " id="109">
+<!-- Cour intérieure -->
+        <div class="container-fluid d-none" id="109">
             <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold text-break">
-                      109 - Court intérieure -
+                      109 - Cour intérieure -
                     </h4>
                 </div>
             </div>
             <div class="row px-sm-5 opacite" id="opacite109">
                 <div class="col-12">
                     <p class="text-justify border-left border-dark pl-3">
-                        - <span class="font-weight-bold"></span>
+                        - Disposez la <span class="font-weight-bold">tuile 2</span> de façon à ce que seules les portes <span class="font-weight-bold">B</span> de la <span class="font-weight-bold">tuile 4</span> et la porte <span class="font-weight-bold">H</span> de la <span class="font-weight-bold">tuile 2</span> coïncident.
                         <br />
-                        - 
+                        - Placez un jeton <span class="font-weight-bold">Passage Secret</span> entre la <span class="font-weight-bold">zone 2</span> de la <span class="font-weight-bold">tuile 4</span> et la <span class="font-weight-bold">zone 6</span> de la <span class="font-weight-bold">tuile 2</span>.
                         <br />
-                        - 
+                        - Placez les <span class="font-weight-bold">Investigateurs</span> dans la <span class="font-weight-bold">zone 6</span> de la <span class="font-weight-bold">tuile 2</span>.
                     </p>
+                    <p class="text-justify">
+                        Nous avions atteint la cour avec la nuée de <span class="font-italic">Livres Vampires</span> à nos trousses. En me retournant vers la bibliothèque, je constatais qu'elle était déserte et que les vampires s'étaient envolés dans le ciel nocturne. Daphné se recoiffa en disant&nbsp;: <span class="font-italic">"Trop de culture peut vous tuer..."</span> Nous avons éclaté de rire&nbsp;: une bonne façon de lutter contre le stress. En dépit de la situation, nous nous sentions comme les protagonistes d'une histoire épique. Peut-être qu'un jour, les aventures de <span class="font-italic">Pizza & Investigation</span> seraient racontées dans un livre, un comics ou serviraient dans un jeu de société&nbsp;!
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Placez un jeton <span class="font-weight-bold">Trouvaille</span>.
+                        <br />
+                        - Placez un jeton <span class="font-weight-bold">Passage</span>.
+                        <br />
+                        - <span class="font-weight-bold">I</span>&nbsp;= clé de <span class="font-weight-bold">Cœur</span>.
+                    </p>
+                    <p class="text-justify">
+                        Avant de repartir, nous avons jeté un œil aux alentours. Mike qui se tenait près de la fenêtre annonça&nbsp;: <span class="font-italic">"Je vois des trucs qui pourraient nous être utile et une bagnole super sympa."</span>
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Placez <span class="font-weight-bold">2 Trouvailles</span> et <span class="font-weight-bold">1 Indice</span> (qui représente la voiture) dans la <span class="font-weight-bold">zone 5</span> de la <span class="font-weight-bold">tuile 2</span>.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn109_1" onclick="suite412()">
+                         1 - Il y a un grand trou à côté de la fontaine. Nous empruntons ce passage.
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark my-3" id="btn109_2" onclick="suite341()">
+                        2 - Il y a une porte épaisse avec une serrure en forme de cœur. Nous ouvrons la porte I (uniquement si vous avez la carte Spéciale 30).
+                   </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Où est-ce qu'on est ? -->
+        <div class="container-fluid d-none" id="412">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      412 - Où est-ce qu'on est&nbsp;? -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite412">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Disposez la <span class="font-weight-bold">tuile 3</span> en faisant coïncider les portes <span class="font-weight-bold">G-D</span> et <span class="font-weight-bold">F-E</span> de la <span class="font-weight-bold">tuile 3</span> et de la <span class="font-weight-bold">tuile 4</span>.
+                        <br />
+                        - Placez un jeton <span class="font-weight-bold">Passage</span> et les <span class="font-weight-bold">Investigateurs</span> dans la <span class="font-weight-bold">zone 3</span> de la <span class="font-weight-bold">tuile 3</span>.
+                    </p>
+                    <p class="text-justify">
+                        Après avoir traversé le tunnel, nous sommes sortis d'un puits et avons regardé autour de nous, confus. L'endroit était magnifique, baigné dans la lumière de nombreuses lucioles. Nous avons respiré à pleins poumons, conscients que de tels moments de paix ne seraient pas fréquents.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Chaque <span class="font-weight-bold">Investigateur</span> lance <span class="font-weight-bold">1 dé</span> et récupère des jetons selon son résultat&nbsp;: <span class="font-weight-bold">Succès +1 de Santé Physique</span> / <span class="font-weight-bold">Tortue +1 de Santé Mentale</span> / <span class="font-weight-bold">Araignée +1 de Santé Frayeur</span> / <span class="font-weight-bold">Lampe Torche +1 de Pile</span>.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn412" onclick="suite357()">
+                         Après un instant de repos, nous nous dirigeons vers la porte (L).
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Promenade au clair de lune -->
+        <div class="container-fluid d-none" id="357">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      357 - Promenade au clair de lune -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite357">
+                <div class="col-12">
+                    <p class="text-justify">
+                        À vrai dire, ce n'était pas une vraie promenade. Sous le regard de la lune, le froid de la nuit et la terre détrempée sous nos pieds n'étaient pas rassurants. L'endroit nous faisait frissonner. L'écho d'étranges grognements semblait provenir de partout.
+                        <br />
+                        <span class="font-italic">"On ferait mieux de revenir dans la maison"</span>, suggéra Ray.
+                        <br />
+                        <span class="font-italic">"Hé, l'entrée du sous-sol serait pas cachée dans le cimetière&nbsp;?"</span> demanda Leila.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - <span class="font-weight-bold">Fusion</span>&nbsp;: Les <span class="font-weight-bold">Braves</span> doivent enfiler des vestes pour protéger les <span class="font-weight-bold">Investigateurs</span> du froid. Ceux qui ne le font pas perdent <span class="font-weight-bold">1 point de Santé Physique</span>.
+                        <br />
+                        - <span class="font-weight-bold">I</span>&nbsp;= clé de <span class="font-weight-bold">Cœur</span> (pour ouvrir cette porte, il faut la clé de <span class="font-weight-bold">Cœur</span>).
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn357_1" onclick="suite454()">
+                         1 - Nous rentrons dans la maison en ouvrant la porte D.
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn357_2" onclick="suite319()">
+                         2 - Nous entrons dans le cimetière (uniquement si vous avez la carte Spéciale 30) en ouvrant la porte (I).
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Hey ! -->
+        <div class="container-fluid " id="454">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      454 - Hey&nbsp;! -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite454">
+                <div class="col-12">
+                    <p class="text-justify">
+                        
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn454" onclick="suite64()">
+                         
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Un endroit effrayant -->
+        <div class="container-fluid " id="319">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      319 - Un endroit effrayant -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite319">
+                <div class="col-12">
                     <p class="text-justify">
                         
                     </p>
                     <p class="text-justify border-left border-dark pl-3">
                         - 
-                        <br />
-                        - 
-                        <br />
-                        - 
                     </p>
-                    <p class="text-justify">
-
-                    </p>
-                    <p class="text-justify border-left border-dark pl-3">
-                        - 
-                    </p>
-                    <button type="button" class="btn btn-dark my-3" id="btn109_1" onclick="suite412()">
+                    <button type="button" class="btn btn-dark my-3" id="btn319_1" onclick="suite177()">
                          1 - 
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark my-3" id="btn109_2" onclick="suite341()">
-                        2 - 
-                   </button>
+                    <button type="button" class="btn btn-dark mb-3" id="btn319_2" onclick="suite135()">
+                         2 - 
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Tremblement de terre ? -->
+        <div class="container-fluid d-none" id="341">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      341 - Tremblement de terre&nbsp;? -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite341">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Dès que nous avons mis les pieds dans le couloir, le sol a commencé à vibrer comme s'il était sous l'emprise d'un tremblement de terre.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Chaque <span class="font-weight-bold">Investigateur</span> fait un <span class="font-weight-bold">Test</span> de <span class="font-weight-bold">Dextérité 3+(Santé Physique)</span> pour s'amortir au mieux.
+                    </p>
+                    <p class="text-justify">
+                        La raison de la secousse demeura un mystère. Alors que nous décidions vers où aller, j'eus un sentiment de déjà-vu et la certitude d'avoir déjà emprunté ce couloir de l'autre côté de la maison. Alors que je réfléchissais, la porte <span class="font-italic">B</span> fut arrachée de ses gonds par le <span class="font-italic">Psychopathe</span> à la pioche&nbsp;! Il nous aurait certainement tués si Mike n'avait pas utilisé son lance-pierre, le touchant en plein dans son seul œil valide. Le monstre commença à hurler et à se tordre de douleur. C'était le bon moment pour s'enfuir quand... <span class="font-weight-bold">[Carte Évènement]</span>.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn341_1" onclick="suite204()">
+                         1 - Nous filons par la porte (L).
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn341_2" onclick="suite179()">
+                         2 - Nous nous cachons derrière la porte M.
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn341_3" onclick="suite366()">
+                         3 - Nous courons jusqu'à la porte N.
+                    </button>
                 </div>
             </div>
         </div>
