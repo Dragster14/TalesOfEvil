@@ -253,3 +253,54 @@ function suite366() {
     document.getElementById('btn341_2').disabled = true;
     document.getElementById('btn341_3').disabled = true;
 }
+
+// - Hey ! -
+function suite64() {
+    document.getElementById('opacite454').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('64').innerHTML;
+    document.getElementById('btn454').disabled = true;
+}
+
+// - Un endroit effrayant -
+function suite177() {
+    document.getElementById('opacite319').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('177').innerHTML;
+    document.getElementById('btn319_1').disabled = true;
+    document.getElementById('btn319_2').disabled = true;
+}
+
+function suite135() {
+    document.getElementById('opacite319').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('135').innerHTML;
+    document.getElementById('btn319_1').disabled = true;
+    document.getElementById('btn319_2').disabled = true;
+}
+
+// - La salle de billard -
+function suite261() {
+    document.getElementById('opacite64').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('261').innerHTML;
+    document.getElementById('btn64').disabled = true;
+}
+
+// - Que diable ? -
+function suite119() {
+    document.getElementById('opacite261').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('119').innerHTML;
+    document.getElementById('btn261').disabled = true;
+}
+
+// - Le passage -
+function suite221() {
+    document.getElementById('opacite119').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('221').innerHTML;
+    document.getElementById('btn119_1').disabled = true;
+    document.getElementById('btn119_2').disabled = true;
+}
+
+function suite209() {
+    document.getElementById('opacite119').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('209').innerHTML;
+    document.getElementById('btn119_1').disabled = true;
+    document.getElementById('btn119_2').disabled = true;
+}
