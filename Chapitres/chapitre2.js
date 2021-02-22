@@ -304,3 +304,20 @@ function suite209() {
     document.getElementById('btn119_1').disabled = true;
     document.getElementById('btn119_2').disabled = true;
 }
+
+// - De mal en pis - & - Balconnet -
+function suite333() {
+    document.getElementById('opacite221').classList.remove('opacite');
+    document.getElementById('opacite209').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('333').innerHTML;
+    document.getElementById('btn221').disabled = true;
+    document.getElementById('btn209_1').disabled = true;
+    document.getElementById('btn209_2').disabled = true;
+}
+
+function suite349() {
+    document.getElementById('opacite209').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('349').innerHTML;
+    document.getElementById('btn209_1').disabled = true;
+    document.getElementById('btn209_2').disabled = true;
+}
