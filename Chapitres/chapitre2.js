@@ -321,3 +321,40 @@ function suite349() {
     document.getElementById('btn209_1').disabled = true;
     document.getElementById('btn209_2').disabled = true;
 }
+
+// - Dans le ventre du couloir aux murmures -
+function suite192() {
+    document.getElementById('opacite333').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('192').innerHTML;
+    document.getElementById('btn333_1').disabled = true;
+    document.getElementById('btn333_2').disabled = true;
+    document.getElementById('btn333_3').disabled = true;
+    document.getElementById('btn333_4').disabled = true;
+}
+
+function suite301() {
+    document.getElementById('opacite333').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('301').innerHTML;
+    document.getElementById('btn333_1').disabled = true;
+    document.getElementById('btn333_2').disabled = true;
+    document.getElementById('btn333_3').disabled = true;
+    document.getElementById('btn333_4').disabled = true;
+}
+
+function suite370() {
+    document.getElementById('opacite333').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('370').innerHTML;
+    document.getElementById('btn333_1').disabled = true;
+    document.getElementById('btn333_2').disabled = true;
+    document.getElementById('btn333_3').disabled = true;
+    document.getElementById('btn333_4').disabled = true;
+}
+
+function suite372() {
+    document.getElementById('opacite333').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('372').innerHTML;
+    document.getElementById('btn333_1').disabled = true;
+    document.getElementById('btn333_2').disabled = true;
+    document.getElementById('btn333_3').disabled = true;
+    document.getElementById('btn333_4').disabled = true;
+}
