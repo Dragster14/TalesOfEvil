@@ -358,3 +358,66 @@ function suite372() {
     document.getElementById('btn333_3').disabled = true;
     document.getElementById('btn333_4').disabled = true;
 }
+
+// - Tiques ! - & - La Vision - & - La géante - & - Lumière aveuglante -
+function suite495() {
+    document.getElementById('opacite192').classList.remove('opacite');
+    document.getElementById('opacite301').classList.remove('opacite');
+    document.getElementById('opacite370').classList.remove('opacite');
+    document.getElementById('opacite372').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('495').innerHTML;
+    document.getElementById('btn192_1').disabled = true;
+    document.getElementById('btn192_2').disabled = true;
+    document.getElementById('btn301_1').disabled = true;
+    document.getElementById('btn301_2').disabled = true;
+    document.getElementById('btn370_1').disabled = true;
+    document.getElementById('btn370_2').disabled = true;
+    document.getElementById('btn372_1').disabled = true;
+    document.getElementById('btn372_2').disabled = true;
+}
+
+function suite66() {
+    document.getElementById('opacite192').classList.remove('opacite');
+    document.getElementById('opacite301').classList.remove('opacite');
+    document.getElementById('opacite370').classList.remove('opacite');
+    document.getElementById('opacite372').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('66').innerHTML;
+    document.getElementById('btn192_1').disabled = true;
+    document.getElementById('btn192_2').disabled = true;
+    document.getElementById('btn301_1').disabled = true;
+    document.getElementById('btn301_2').disabled = true;
+    document.getElementById('btn370_1').disabled = true;
+    document.getElementById('btn370_2').disabled = true;
+    document.getElementById('btn372_1').disabled = true;
+    document.getElementById('btn372_2').disabled = true;
+}
+
+// - Escalier poussiéreux -
+function suite107() {
+    document.getElementById('opacite495').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('107').innerHTML;
+    document.getElementById('btn495_1').disabled = true;
+    document.getElementById('btn495_2').disabled = true;
+}
+
+function suite27() {
+    document.getElementById('opacite495').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('27').innerHTML;
+    document.getElementById('btn495_1').disabled = true;
+    document.getElementById('btn495_2').disabled = true;
+}
+
+// - Foutu couloir ! -
+function suite437() {
+    document.getElementById('opacite66').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('437').innerHTML;
+    document.getElementById('btn66_1').disabled = true;
+    document.getElementById('btn66_2').disabled = true;
+}
+
+function suite189() {
+    document.getElementById('opacite66').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('189').innerHTML;
+    document.getElementById('btn66_1').disabled = true;
+    document.getElementById('btn66_2').disabled = true;
+}
