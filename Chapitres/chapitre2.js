@@ -392,12 +392,14 @@ function suite66() {
     document.getElementById('btn372_2').disabled = true;
 }
 
-// - Escalier poussiéreux -
+// - Escalier poussiéreux - & - Ça ne marche pas comme ça -
 function suite107() {
     document.getElementById('opacite495').classList.remove('opacite');
+    document.getElementById('opacite27').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('107').innerHTML;
     document.getElementById('btn495_1').disabled = true;
     document.getElementById('btn495_2').disabled = true;
+    document.getElementById('btn27').disabled = true;
 }
 
 function suite27() {
@@ -407,17 +409,91 @@ function suite27() {
     document.getElementById('btn495_2').disabled = true;
 }
 
-// - Foutu couloir ! -
+// - Foutu couloir ! - & - Regroupement ! -
 function suite437() {
     document.getElementById('opacite66').classList.remove('opacite');
+    document.getElementById('opacite107').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('437').innerHTML;
     document.getElementById('btn66_1').disabled = true;
     document.getElementById('btn66_2').disabled = true;
+    document.getElementById('btn107_1').disabled = true;
+    document.getElementById('btn107_2').disabled = true;
 }
 
 function suite189() {
     document.getElementById('opacite66').classList.remove('opacite');
+    document.getElementById('opacite107').classList.remove('opacite');
+    document.getElementById('opacite437').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('189').innerHTML;
     document.getElementById('btn66_1').disabled = true;
     document.getElementById('btn66_2').disabled = true;
+    document.getElementById('btn107_1').disabled = true;
+    document.getElementById('btn107_2').disabled = true;
+    document.getElementById('btn189').disabled = true;
+}
+
+// - Quoi ? -
+function suite155() {
+    document.getElementById('opacite189').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('155').innerHTML;
+    document.getElementById('btn189_1').disabled = true;
+    document.getElementById('btn189_2').disabled = true;
+}
+
+function suite26() {
+    document.getElementById('opacite189').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('26').innerHTML;
+    document.getElementById('btn189_1').disabled = true;
+    document.getElementById('btn189_2').disabled = true;
+}
+
+// - C'est fait ! - & - Trouvaille dans le noir -
+function suite224() {
+    document.getElementById('opacite155').classList.remove('opacite');
+    document.getElementById('opacite26').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('224').innerHTML;
+    document.getElementById('btn155').disabled = true;
+    document.getElementById('btn26').disabled = true;
+}
+
+// - Retour dans le couloir -
+function suite441() {
+    document.getElementById('opacite224').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('441').innerHTML;
+    document.getElementById('btn224').disabled = true;
+}
+
+// - Musique, maestro ! - & - Comment oses-tu morveux !? - & - Il n'y a plus que toi ! -
+function suite427() {
+    document.getElementById('opacite441').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('427').innerHTML;
+    document.getElementById('btn441_1').disabled = true;
+    document.getElementById('btn441_2').disabled = true;
+}
+
+function suite278() {
+    document.getElementById('opacite441').classList.remove('opacite');
+    document.getElementById('opacite427').classList.remove('opacite');
+    document.getElementById('opacite21').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('278').innerHTML;
+    document.getElementById('btn441_1').disabled = true;
+    document.getElementById('btn441_2').disabled = true;
+    document.getElementById('btn427_1').disabled = true;
+    document.getElementById('btn427_2').disabled = true;
+    document.getElementById('btn21_1').disabled = true;
+    document.getElementById('btn21_2').disabled = true;
+}
+
+function suite21() {
+    document.getElementById('opacite427').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('21').innerHTML;
+    document.getElementById('btn427_1').disabled = true;
+    document.getElementById('btn427_2').disabled = true;
+}
+
+function suite280() {
+    document.getElementById('opacite21').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('280').innerHTML;
+    document.getElementById('btn21_1').disabled = true;
+    document.getElementById('btn21_2').disabled = true;
 }

@@ -929,7 +929,7 @@
         </div>
 
 <!-- Regroupement ! -->
-        <div class="container-fluid " id="107">
+        <div class="container-fluid d-none" id="107">
             <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold text-break">
@@ -940,26 +940,393 @@
             <div class="row px-sm-5 opacite" id="opacite107">
                 <div class="col-12">
                     <p class="text-justify">
-                        
+                        La porte s'ouvrit et nous nous sommes finalement tous retrouvés. Restait à savoir où nous diriger.
                     </p>
                     <p class="text-justify border-left border-dark pl-3">
-                        - 
+                        - Placez tous les <span class="font-weight-bold">Investigateurs</span> dans la zone <span class="font-weight-bold">1</span> de la tuile <span class="font-weight-bold">5</span>.
                         <br />
-                        - 
+                        - <span class="font-weight-bold">B</span>&nbsp;= Clé de <span class="font-weight-bold">Pique</span> (la clé de Pique est requise pour l'ouvrir).
                     </p>
                     <button type="button" class="btn btn-dark my-3" id="btn107_1" onclick="suite437()">
-                        1 - 
+                        1 - Nous ouvrons la porte (I).
                     </button>
                     <br />
                     <button type="button" class="btn btn-dark mb-3" id="btn107_2" onclick="suite189()">
-                        2 - 
+                        2 - Nous ouvrons la porte M.
                     </button>
                 </div>
             </div>
         </div>
 
+<!-- Des toilettes ! -->
+        <div class="container-fluid d-none" id="437">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      437 - Des toilettes&nbsp;! -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite437">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Pourquoi ne l'avons-nous pas vu sur la carte&nbsp;? Très bien... Nous commençons à fouiller, avant de revenir dans le couloir quand... <span class="font-weight-bold">[Carte Évènement]</span>
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Placez un jeton <span class="font-weight-bold">Trouvaille</span>.
+                        <br />
+                        - Placez les <span class="font-weight-bold">Investigateurs</span> dans la zone <span class="font-weight-bold">1</span>.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn437" onclick="suite189()">
+                        Nous ouvrons la porte M.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Quoi ? -->
+        <div class="container-fluid d-none" id="189">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      189 - Quoi&nbsp;? -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite189">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Placez un jeton <span class="font-weight-bold">Obscurité</span>.
+                    </p>
+                    <p class="text-justify">
+                        La pièce était plongée dans les ténèbres et une forte odeur d'alcool en provenait.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn189_1" onclick="suite155()">
+                        1 - Fusion&nbsp;: Si vous avez un briquet, allumez une petite flamme et c'est par ici&nbsp;!
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn189_2" onclick="suite26()">
+                        2 - Si vous ne voulez ou ne pouvez pas allumer une flamme, c'est par là&nbsp;!
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- C'est fait ! -->
+        <div class="container-fluid d-none" id="155">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      155 - C'est fait&nbsp;! -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite155">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Une faible lumière illumina les environs et nous avons réalisé que quelqu'un nous aidait; quelqu'un qui était tout à la fois très éloigné et très proche. Nous avons commencé à fouiller au hasard lorsque Daphné se tourna vers moi. Elle ouvrit la main, y révélant une petite clé, et me dit&nbsp;:
+                        <br />
+                        <span class="font-italic">"Je pense que ça pourrait être utile, non&nbsp;?"</span>
+                        <br />
+                        Je l'ai serrée dans mes bras et elle ne s'est pas éloignée. C'était un début.
+                        <br />
+                        <span class="font-italic">"Très bien les gars, vous avez trouvé une autre clé du Destin&nbsp;!"</span> dit la Voix par le Talkie-walkie.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Prenez la carte <span class="font-weight-bold">Spéciale 29</span>.
+                        <br />
+                        - Placez un jeton <span class="font-weight-bold">Trouvaille</span>.
+                    </p>
+                    <p class="text-justify">
+                        Mais les réjouissances ne durèrent pas longtemps car la flamme qui éclairait la pièce tomba au sol, déclenchant une longue traînée de feu.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn155" onclick="suite224()">
+                        Nous nous précipitons vers la porte M.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Trouvaille dans le noir -->
+        <div class="container-fluid d-none" id="26">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      26 - Trouvaille dans le noir -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite26">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Nous n'avions pas d'autres choix que de tâtonner dans l'obscurité, mais certains d'entre nous ont perdu leur sang-froid.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Utilisez les <span class="font-weight-bold">Allumettes</span> pour tirer à la courte paille. L'<span class="font-weight-bold">Investigateur</span> désigné tire une carte <span class="font-weight-bold">Trauma</span>.
+                    </p>
+                    <p class="text-justify">
+                        Au milieu des déchets et du bric-à-brac, quelque chose attira notre attention.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Prenez la carte <span class="font-weight-bold">Spéciale 29</span>.
+                    </p>
+                    <p class="text-justify">
+                        <span class="font-italic">"Vous avez trouvé une autre clé du Destin&nbsp;!"</span>, annonça la Voix dans le Talkie-walkie.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn26" onclick="suite224()">
+                        Nous avons ce que nous avions besoin. Nous retournons dans le couloir.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Retour dans le couloir -->
+        <div class="container-fluid d-none" id="224">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      224 - Retour dans le couloir -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite224">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Maintenant, nous avions la clé pour ouvrir la porte fermée. Mais soudain... <span class="font-weight-bold">[carte Évènement]</span>
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Retirez le jeton <span class="font-weight-bold">Pique</span> de la porte <span class="font-weight-bold">B</span>.
+                    </p>
+                    <p class="text-justify">
+                        <span class="font-italic">"Congratulations les gars, vous avez l'une des clés du Destin. Ne laissez personne vous la prendre&nbsp;!"</span>, annonça la Voix par le Talkie-walkie.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn224" onclick="suite441()">
+                        Nous ouvrons la porte B et avançons.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Musique, maestro ! -->
+        <div class="container-fluid d-none" id="441">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      441 - Musique, maestro&nbsp;! -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite441">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - <span class="font-weight-bold">Fusion</span>&nbsp;: Cherchez et jouez la mélodie suivante&nbsp;: <span class="font-italic">"Sonate au Clair de Lune" (Beethoven)</span>, puis poursuivez la lecture. Si vous ne pouvez pas ou ne voulez pas, chaque <span class="font-weight-bold">Investigateur</span> perd <span class="font-weight-bold">1 point de Santé Mentale</span>.
+                    </p>
+                    <p class="text-justify">
+                        Au centre de la salle se trouvait un grand piano. Le plus inquiétant était que les touches du piano bougeaient toutes seules dans la pale lumière de la lune qui inondait la pièce.
+                        <br />
+                        <span class="font-italic">"Sonate au Clair de Lune"</span>, murmura Daphné.
+                        <br />
+                        <span class="font-italic">"Tu connais&nbsp;?"</span> demanda Ray à voix basse.
+                        <br />
+                        <span class="font-italic">"Bien sûr qu'elle connait. C'est Beethoven&nbsp;!"</span> répondis-je énervé.
+                        <br />
+                        Daphné me lança un regard de reproche pour m'être immiscé dans l'échange. À ce moment, je compris pourquoi elle préférait mon frère Ray, mais je me gardais tout commentaire. Alors que la musique continuait, nous échangeâmes un regard gêné jusqu'à ce que Mike brise le silence&nbsp;:
+                        <br />
+                        <span class="font-italic">"Hum... Qu'est-ce qu'on fait maintenant&nbsp;? On commande une pizza&nbsp;?"</span>
+                        <br />
+                        <span class="font-italic">"Hey, les nases&nbsp;!"</span> cria une voix que j'avais appris à haïr. <span class="font-italic">"Vous jouez à Ghostbusters&nbsp;?"</span> C'était Harry Cooper, la brute du comté. Si vous souhaitiez que quelqu'un ait une mauvaise journée, il suffisait d'espérer qu'il croise Harry Cooper et ses abrutis de potes Tom et Gerry (ils s'appelaient vraiment comme ça et n'étaient rien de plus que les sbires de Harry).
+                        <br />
+                        <span class="font-italic">"Je crois qu'ils jouent à la poupée"</span>, annonça Tom.
+                        <br />
+                        <span class="font-italic">"Qu'est-ce que tu veux, Harry&nbsp;?"</span>
+                        <br />
+                        <span class="font-italic">"Vous me devez un truc depuis cette histoire de poubelle, vous croyez pas&nbsp;?"</span>
+                        <br />
+                        <span class="font-italic">"On te doit que dalle"</span>, répondit Ray en levant sa batte.
+                        <br />
+                        <span class="font-italic">"Je crois que si"</span>, répondit Harry en se léchant la lèvre supérieure. <span class="font-italic">"Votre club de nases m'a causé trop de problèmes avec le principal de l'école. Vous méritez une bonne leçon."</span>
+                        <br />
+                        Nous avons pris prudemment position, alors que les trois gorilles avançaient vers nous.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Harry & Co. <span class="font-weight-bold">Attaquent</span> en premier avec <span class="font-weight-bold">2 Succès (Santé Physique)</span>.
+                        <br />
+                        - Chaque <span class="font-weight-bold">Investigateur</span> doit se <span class="font-weight-bold">Défendre</span> puis <span class="font-weight-bold">Attaquer</span>. Un <span class="font-weight-bold">Investigateur</span> doit obtenir au moins <span class="font-weight-bold">1 Succès</span>.
+                        <br />
+                        - Poursuivez ce cycle jusqu'à ce que tous les <span class="font-weight-bold">Investigateurs</span> soient <span class="font-weight-bold">Assommés</span> ou que l'un d'entre eux touche.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn441_1" onclick="suite427()">
+                        1 - Si l'un des Investigateurs parvient à toucher Harry & Co., c'est par ici&nbsp;!
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn441_2" onclick="suite278()">
+                        2 - Si tous les Investigateurs sont Assommés, c'est par là&nbsp;!
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Comment oses-tu morveux !? -->
+        <div class="container-fluid d-none" id="427">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      427 - Comment oses-tu morveux&nbsp;!? -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite427">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Sous le regard incrédule de tous, <span class="font-italic">{un Brave}</span> parvint à toucher Harry et à faire saigner sa lèvre. Tom sembla le plus effrayé.
+                        <br />
+                        <span class="font-italic">"Hey, je viens de me souvenir que j'ai quelque chose à faire"</span>, dit-il en filant par une porte.
+                        <br />
+                        <span class="font-italic">"Pauvre couard"</span>, cracha Harry. <span class="font-italic">"Mais maintenant, on va passer au choses sérieuses&nbsp;!"</span>
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Harry & Co. <span class="font-weight-bold">Attaquent</span> en premier avec <span class="font-weight-bold">2 Succès (Santé Physique)</span>.
+                        <br />
+                        - Chaque <span class="font-weight-bold">Investigateur</span> doit se <span class="font-weight-bold">Défendre</span> puis <span class="font-weight-bold">Attaquer</span>. Un <span class="font-weight-bold">Investigateur</span> doit obtenir au moins <span class="font-weight-bold">2 Succès</span>.
+                        <br />
+                        - Poursuivez ce cycle jusqu'à ce que tous les <span class="font-weight-bold">Investigateurs</span> soient <span class="font-weight-bold">Assommés</span> ou que l'un d'entre eux touche.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn427_1" onclick="suite21()">
+                        1 - Si l'un des Investigateurs parvient à toucher Harry & Co., c'est par ici&nbsp;!
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn427_2" onclick="suite278()">
+                        2 - Si tous les Investigateurs sont Assommés, c'est par là&nbsp;!
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Il n'y a plus que toi ! -->
+        <div class="container-fluid d-none" id="21">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      21 - Il n'y a plus que toi&nbsp;! -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite21">
+                <div class="col-12">
+                    <p class="text-justify">
+                        <span class="font-italic">"Prends ça&nbsp;!"</span>, cria <span class="font-italic">{un Brave}</span> en frappant Gerry à la tête.
+                        <br />
+                        <span class="font-italic">"Heck, Harry, je me casse"</span>, annonça Gerry en filant par une porte.
+                        <br />
+                        <span class="font-italic">"On règlera nos comptes plus tard"</span>, dit Harry. <span class="font-italic">"Quant à vous les nases, vous pensez vraiment que vous pouvez me battre&nbsp;?"</span> demanda-t-il en sortant un couteau à cran d'arrêt de sa poche. <span class="font-italic">"Vous allez regretter de vous être mis sur ma route."</span>
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Harry <span class="font-weight-bold">Attaque</span> en premier avec <span class="font-weight-bold">2 Succès (Santé Physique)</span>.
+                        <br />
+                        - Chaque <span class="font-weight-bold">Investigateur</span> doit se <span class="font-weight-bold">Défendre</span> puis <span class="font-weight-bold">Attaquer</span>. Un des <span class="font-weight-bold">Investigateurs</span> doit obtenir au moins <span class="font-weight-bold">2 Succès</span>.
+                        <br />
+                        - Poursuivez ce cycle jusqu'à ce que tous les <span class="font-weight-bold">Investigateurs</span> soient <span class="font-weight-bold">Assommés</span> ou que l'un d'entre eux touche.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn21_1" onclick="suite280()">
+                        1 - Si l'un des Investigateurs parvient à toucher Harry, c'est par ici&nbsp;!
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn21_2" onclick="suite278()">
+                        2 - Si tous les Investigateurs sont Assommés, c'est par là&nbsp;!
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Le moment de vérité ! -->
+        <div class="container-fluid d-none" id="280">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      280 - Le moment de vérité&nbsp;! -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite280">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Dans la pagaille générale, <span class="font-italic">{un Brave}</span> mit fin au combat d'un joli coup de poing en plein dans le pif de Harry Cooper. Nous avions toujours voulu lui donner une bonne leçon, mais je savais déjà que nous risquions de le payer très cher. Le combat avait été acharné et nous étions couverts de bleus, mais nous venions de remporter notre première victoire contre la Terreur du Lycée et c'était un vrai plaisir de le voir battre en retraite, en geignant, par le couloir qu'il avait utilisé pour arriver.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - L'<span class="font-weight-bold">Investigateur</span> qui a éliminé Harry Cooper peut prendre la carte <span class="font-weight-bold">Spéciale 35</span>.
+                    </p>
+                    <p class="text-justify">
+                        L'affrontement se termina en même temps que la mélodie et le piano redevint aussi silencieux qu'il l'avait probablement été avant notre arrivée. Nous n'avions pas encore identifié l'accès au sous-sol avant que Daphné ne s'assoie sur le tabouret de velours rouge et ne commence à jouer du piano. Les notes de la Sonate au Clair de Lune planaient autour de nous comme de la poussière d'étoile. La magie ne dura qu'un instant et quand Daphné s'arrêta de jouer, un mur coulissant révéla un passage non loin. La Voix cria&nbsp;: <span class="font-italic">"Allez-vous-en&nbsp;! Nous savons maintenant où se trouve l'accès au sous-sol, mais vous êtes épuisés. Nous en reparlerons demain. Maintenant, il faut que vous vous reposiez et il fait presque jour..."</span>
+                        <br />
+                        <span class="font-italic">"Attendez&nbsp;!"</span> cria Mike alors que nous nous apprêtions à partir. Il indiquait une vieille carte, fixée sur le côté de la porte.
+                        <br />
+                        <span class="font-italic">"Génial, Mike&nbsp;! Ça nous aidera sûrement&nbsp;!"</span> répondis-je en prenant la carte et en la mettant dans mon sac-à-dos.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Prenez la carte <span class="font-weight-bold">Spéciale 31</span>.
+                    </p>
+                    <p class="text-justify">
+                        Nous ne savions pas ce qui nous attendait dans le sous-sol mais après la nuit que nous venions de passer, aucun d'entre nous n'était capable de continuer. Nous sommes repartis par la porte d'entrée, la franchissant au moment où les premières lueurs de l'aube venaient lécher la maison. Nous avons récupéré nos vélos et fait le chemin du retour sans dire un mot.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - <span class="font-weight-bold">Mission accomplie&nbsp;!</span>
+                        <br />
+                        - Ce chapitre est terminé. Vous pouvez interrompre votre aventure et la reprendre plus tard. En utilisant le système de <span class="font-weight-bold">Sauvegarde</span> des règles, vous pouvez conserver votre progression et recommencer la prochaine exactement là où vous vous êtes arrêté. Si vous voulez continuer la partie, rendez-vous au <span class="font-weight-bold">Chapitre 3</span>.
+                    </p>
+                    <p class="text-justify">
+                        <span class="font-weight-bold">Bonne chance&nbsp;!</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+<!-- On a pris une sacrée branlée -->
+        <div class="container-fluid d-none" id="278">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      278 - On a pris une sacrée branlée -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite278">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Que ce soit parce que nous étions fatigués ou simplement parce que Harry & Co. étaient des délinquants et que nous n'étions finalement que des mômes, ils nous ont passés à tabac, nous laissant en sang au sol, en plus de nous avoir volé quelque chose...
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Remettez la carte <span class="font-weight-bold">Spéciale 29</span> dans sa pile.
+                    </p>
+                    <p class="text-justify">
+                        L'affrontement se termina en même temps que la mélodie et le piano redevint aussi silencieux qu'il l'avait probablement été avant notre arrivée. Nous n'avions pas encore identifié l'accès au sous-sol avant que Daphné ne s'assoie sur le tabouret de velours rouge et ne commence à jouer du piano. Les notes de la Sonate au Clair de Lune planaient autour de nous comme de la poussière d'étoile. La magie ne dura qu'un instant et quand Daphné s'arrêta de jouer, un mur coulissant révéla un passage non loin. La Voix cria&nbsp;: <span class="font-italic">"Allez-vous-en&nbsp;! Nous savons maintenant où se trouve l'accès au sous-sol, mais vous êtes épuisés. Nous en reparlerons demain. Maintenant, il faut que vous vous reposiez et il fait presque jour..."</span>
+                        <br />
+                        <span class="font-italic">"Attendez&nbsp;!"</span> cria Mike alors que nous nous apprêtions à partir. Il indiquait une vieille carte, fixée sur le côté de la porte.
+                        <br />
+                        <span class="font-italic">"Génial, Mike&nbsp;! Ça nous aidera sûrement&nbsp;!"</span> répondis-je en prenant la carte et en la mettant dans mon sac-à-dos.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Prenez la carte <span class="font-weight-bold">Spéciale 31</span>.
+                    </p>
+                    <p class="text-justify">
+                        Nous ne savions pas ce qui nous attendait dans le sous-sol mais après la nuit que nous venions de passer, aucun d'entre nous n'était capable de continuer. Nous sommes repartis par la porte d'entrée, la franchissant au moment où les premières lueurs de l'aube venaient lécher la maison. Nous avons récupéré nos vélos et fait le chemin du retour sans dire un mot.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - <span class="font-weight-bold">Mission (presque) accomplie.</span>
+                        <br />
+                        - Ce chapitre est terminé. Vous pouvez interrompre votre aventure et la reprendre plus tard. En utilisant le système de <span class="font-weight-bold">Sauvegarde</span> des règles, vous pouvez conserver votre progression et recommencer la prochaine exactement là où vous vous êtes arrêté. Si vous voulez continuer la partie, rendez-vous au <span class="font-weight-bold">Chapitre 3</span>.
+                    </p>
+                    <p class="text-justify">
+                        <span class="font-weight-bold">Bonne chance&nbsp;!</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
 <!-- Ça ne marche pas comme ça -->
-        <div class="container-fluid " id="27">
+        <div class="container-fluid d-none" id="27">
             <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold text-break">
@@ -970,10 +1337,10 @@
             <div class="row px-sm-5 opacite" id="opacite27">
                 <div class="col-12">
                     <p class="text-justify border-left border-dark pl-3">
-                        - 
+                        - Tous les <span class="font-weight-bold">Investigateurs</span> font un <span class="font-weight-bold">Test</span> de <span class="font-weight-bold">[Courage 3+]</span>. Ceux qui ratent le <span class="font-weight-bold">Test</span> perdent <span class="font-weight-bold">1 point de Santé Physique</span>. Puis la porte cède.
                     </p>
                     <button type="button" class="btn btn-dark my-3" id="btn27" onclick="suite107()">
-                        1 - 
+                        On continue&nbsp;!
                     </button>
                 </div>
             </div>
@@ -1033,6 +1400,35 @@
                     <button type="button" class="btn btn-dark mb-3" id="btn209_2" onclick="suite333()">
                         2 - Nous empruntons la porte L.
                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Mais on est où là ? -->
+        <div class="container-fluid " id="349">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                      349 - Mais on est où là&nbsp;? -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite349">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - 
+                    </p>
+                    <p class="text-justify">
+                        
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - 
+                        <br />
+                        - 
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn349_1" onclick="suite333()">
+                         Nous ouvrons la porte (L).
+                    </button>
                 </div>
             </div>
         </div>
