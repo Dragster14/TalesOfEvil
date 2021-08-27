@@ -549,3 +549,56 @@ function suite430() {
     document.getElementById('btn366_1').disabled = true;
     document.getElementById('btn366_2').disabled = true;
 }
+
+//  Aide-nous ! - & - Tommy ? -
+function suite377() {
+    document.getElementById('opacite430').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('377').innerHTML;
+    document.getElementById('btn430_1').disabled = true;
+    document.getElementById('btn430_2').disabled = true;
+    document.getElementById('btn430_3').disabled = true;
+}
+
+function suite493() {
+    document.getElementById('opacite430').classList.remove('opacite');
+    document.getElementById('opacite377').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('493').innerHTML;
+    document.getElementById('btn430_1').disabled = true;
+    document.getElementById('btn430_2').disabled = true;
+    document.getElementById('btn430_3').disabled = true;
+    document.getElementById('btn377_1').disabled = true;
+    document.getElementById('btn377_2').disabled = true;
+}
+
+function suite242() {
+    document.getElementById('opacite430').classList.remove('opacite');
+    document.getElementById('opacite377').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('242').innerHTML;
+    document.getElementById('btn430_1').disabled = true;
+    document.getElementById('btn430_2').disabled = true;
+    document.getElementById('btn430_3').disabled = true;
+    document.getElementById('btn377_1').disabled = true;
+    document.getElementById('btn377_2').disabled = true;
+}
+
+// - L'énigme -
+function suite186() {
+    document.getElementById('opacite493').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('186').innerHTML;
+    document.getElementById('btn493').disabled = true;
+}
+
+// - Le tueur de Crystal Lake -
+function suite115() {
+    document.getElementById('opacite242').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('115').innerHTML;
+    document.getElementById('btn242_1').disabled = true;
+    document.getElementById('btn242_2').disabled = true;
+}
+
+function suite378() {
+    document.getElementById('opacite242').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('378').innerHTML;
+    document.getElementById('btn242_1').disabled = true;
+    document.getElementById('btn242_2').disabled = true;
+}
