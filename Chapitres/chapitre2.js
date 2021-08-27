@@ -167,24 +167,30 @@ function suite122() {
     document.getElementById('btn97_2').disabled = true;
 }
 
-// - Promenade au clair de lune (207) - & - Promenade au clair de lune (357) -
+// - Promenade au clair de lune (207) - & - Promenade au clair de lune (357) - & - Un squelette ! -
 function suite454() {
     document.getElementById('opacite207').classList.remove('opacite');
     document.getElementById('opacite357').classList.remove('opacite');
+    document.getElementById('opacite177').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('454').innerHTML;
     document.getElementById('btn207_1').disabled = true;
     document.getElementById('btn207_2').disabled = true;
     document.getElementById('btn207_3').disabled = true;
     document.getElementById('btn357_1').disabled = true;
     document.getElementById('btn357_2').disabled = true;
+    document.getElementById('btn177_1').disabled = true;
+    document.getElementById('btn177_2').disabled = true;
 }
 
 function suite424() {
     document.getElementById('opacite207').classList.remove('opacite');
+    document.getElementById('opacite177').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('424').innerHTML;
     document.getElementById('btn207_1').disabled = true;
     document.getElementById('btn207_2').disabled = true;
     document.getElementById('btn207_3').disabled = true;
+    document.getElementById('btn177_1').disabled = true;
+    document.getElementById('btn177_2').disabled = true;
 }
 
 function suite319() {
@@ -207,7 +213,7 @@ function suite109() {
     document.getElementById('btn122').disabled = true;
 }
 
-// - Cour intérieure -
+// - Cour intérieure - & - Retour à l'air libre -
 function suite412() {
     document.getElementById('opacite109').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('412').innerHTML;
@@ -217,9 +223,19 @@ function suite412() {
 
 function suite341() {
     document.getElementById('opacite109').classList.remove('opacite');
+    document.getElementById('opacite206').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('341').innerHTML;
     document.getElementById('btn109_1').disabled = true;
     document.getElementById('btn109_2').disabled = true;
+    document.getElementById('btn206_1').disabled = true;
+    document.getElementById('btn206_2').disabled = true;
+}
+
+function suite32() {
+    document.getElementById('opacite206').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('32').innerHTML;
+    document.getElementById('btn206_1').disabled = true;
+    document.getElementById('btn206_2').disabled = true;
 }
 
 // - Où est-ce qu'on est ? -
@@ -229,7 +245,7 @@ function suite357() {
     document.getElementById('btn412').disabled = true;
 }
 
-// - Tremblement de terre ? -
+// - Tremblement de terre ? - & - La fenêtre -
 function suite204() {
     document.getElementById('opacite341').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('204').innerHTML;
@@ -248,10 +264,12 @@ function suite179() {
 
 function suite366() {
     document.getElementById('opacite341').classList.remove('opacite');
+    document.getElementById('opacite32').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('366').innerHTML;
     document.getElementById('btn341_1').disabled = true;
     document.getElementById('btn341_2').disabled = true;
     document.getElementById('btn341_3').disabled = true;
+    document.getElementById('btn32').disabled = true;
 }
 
 // - Hey ! -
@@ -261,12 +279,15 @@ function suite64() {
     document.getElementById('btn454').disabled = true;
 }
 
-// - Un endroit effrayant -
+// - Un endroit effrayant - & - Le cercueil -
 function suite177() {
     document.getElementById('opacite319').classList.remove('opacite');
+    document.getElementById('opacite135').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('177').innerHTML;
     document.getElementById('btn319_1').disabled = true;
     document.getElementById('btn319_2').disabled = true;
+    document.getElementById('btn135_1').disabled = true;
+    document.getElementById('btn135_2').disabled = true;
 }
 
 function suite135() {
@@ -274,6 +295,13 @@ function suite135() {
     vHistoire.innerHTML += document.getElementById('135').innerHTML;
     document.getElementById('btn319_1').disabled = true;
     document.getElementById('btn319_2').disabled = true;
+}
+
+function suite484() {
+    document.getElementById('opacite135').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('484').innerHTML;
+    document.getElementById('btn135_1').disabled = true;
+    document.getElementById('btn135_2').disabled = true;
 }
 
 // - La salle de billard -
@@ -305,14 +333,16 @@ function suite209() {
     document.getElementById('btn119_2').disabled = true;
 }
 
-// - De mal en pis - & - Balconnet -
+// - De mal en pis - & - Balconnet - & - Mais on est où là ? -
 function suite333() {
     document.getElementById('opacite221').classList.remove('opacite');
     document.getElementById('opacite209').classList.remove('opacite');
+    document.getElementById('opacite349').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('333').innerHTML;
     document.getElementById('btn221').disabled = true;
     document.getElementById('btn209_1').disabled = true;
     document.getElementById('btn209_2').disabled = true;
+    document.getElementById('btn349').disabled = true;
 }
 
 function suite349() {
@@ -496,4 +526,26 @@ function suite280() {
     vHistoire.innerHTML += document.getElementById('280').innerHTML;
     document.getElementById('btn21_1').disabled = true;
     document.getElementById('btn21_2').disabled = true;
+}
+
+// - Le puits aux vœux ? -
+function suite206() {
+    document.getElementById('opacite424').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('206').innerHTML;
+    document.getElementById('btn424').disabled = true;
+}
+
+// - K.I.T.T. -
+function suite430() {
+    document.getElementById('opacite366').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('430').innerHTML;
+    document.getElementById('btn366_1').disabled = true;
+    document.getElementById('btn366_2').disabled = true;
+}
+
+function suite430() {
+    document.getElementById('opacite366').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('235').innerHTML;
+    document.getElementById('btn366_1').disabled = true;
+    document.getElementById('btn366_2').disabled = true;
 }
