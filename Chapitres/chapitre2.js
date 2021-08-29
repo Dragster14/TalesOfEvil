@@ -54,13 +54,17 @@ function suite11() {
     document.getElementById('btn175_3').disabled = true;
 }
 
-// - Par la hache de Geronimo ! - & - Muahahaha... -
+// - Par la hache de Geronimo ! - & - Muahahaha... - & - Qu'il est mignon ! - & - Cujo -
 function suite101() {
     document.getElementById('opacite407').classList.remove('opacite');
     document.getElementById('opacite88').classList.remove('opacite');
+    document.getElementById('opacite482').classList.remove('opacite');
+    document.getElementById('opacite11').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('101').innerHTML;
     document.getElementById('btn407').disabled = true;
     document.getElementById('btn88').disabled = true;
+    document.getElementById('btn482').disabled = true;
+    document.getElementById('btn11').disabled = true;
 }
 
 // - Retour à la maison -
@@ -167,11 +171,12 @@ function suite122() {
     document.getElementById('btn97_2').disabled = true;
 }
 
-// - Promenade au clair de lune (207) - & - Promenade au clair de lune (357) - & - Un squelette ! -
+// - Promenade au clair de lune (207) - & - Promenade au clair de lune (357) - & - Un squelette ! - & - L'allée -
 function suite454() {
     document.getElementById('opacite207').classList.remove('opacite');
     document.getElementById('opacite357').classList.remove('opacite');
     document.getElementById('opacite177').classList.remove('opacite');
+    document.getElementById('opacite484').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('454').innerHTML;
     document.getElementById('btn207_1').disabled = true;
     document.getElementById('btn207_2').disabled = true;
@@ -180,17 +185,22 @@ function suite454() {
     document.getElementById('btn357_2').disabled = true;
     document.getElementById('btn177_1').disabled = true;
     document.getElementById('btn177_2').disabled = true;
+    document.getElementById('btn484_1').disabled = true;
+    document.getElementById('btn484_2').disabled = true;
 }
 
 function suite424() {
     document.getElementById('opacite207').classList.remove('opacite');
     document.getElementById('opacite177').classList.remove('opacite');
+    document.getElementById('opacite484').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('424').innerHTML;
     document.getElementById('btn207_1').disabled = true;
     document.getElementById('btn207_2').disabled = true;
     document.getElementById('btn207_3').disabled = true;
     document.getElementById('btn177_1').disabled = true;
     document.getElementById('btn177_2').disabled = true;
+    document.getElementById('btn484_1').disabled = true;
+    document.getElementById('btn484_2').disabled = true;
 }
 
 function suite319() {
@@ -245,7 +255,7 @@ function suite357() {
     document.getElementById('btn412').disabled = true;
 }
 
-// - Tremblement de terre ? - & - La fenêtre -
+// - Tremblement de terre ? - & - La fenêtre - & - Il nous cherche ! - & - Il est à côté -
 function suite204() {
     document.getElementById('opacite341').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('204').innerHTML;
@@ -256,20 +266,44 @@ function suite204() {
 
 function suite179() {
     document.getElementById('opacite341').classList.remove('opacite');
+    document.getElementById('opacite204').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('179').innerHTML;
     document.getElementById('btn341_1').disabled = true;
     document.getElementById('btn341_2').disabled = true;
     document.getElementById('btn341_3').disabled = true;
+    document.getElementById('btn204_1').disabled = true;
+    document.getElementById('btn204_2').disabled = true;
+    document.getElementById('btn204_3').disabled = true;
 }
 
 function suite366() {
     document.getElementById('opacite341').classList.remove('opacite');
     document.getElementById('opacite32').classList.remove('opacite');
+    document.getElementById('opacite204').classList.remove('opacite');
+    document.getElementById('opacite306').classList.remove('opacite');
+    document.getElementById('opacite179').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('366').innerHTML;
     document.getElementById('btn341_1').disabled = true;
     document.getElementById('btn341_2').disabled = true;
     document.getElementById('btn341_3').disabled = true;
     document.getElementById('btn32').disabled = true;
+    document.getElementById('btn204_1').disabled = true;
+    document.getElementById('btn204_2').disabled = true;
+    document.getElementById('btn204_3').disabled = true;
+    document.getElementById('btn306').disabled = true;
+    document.getElementById('btn179_1').disabled = true;
+    document.getElementById('btn179_2').disabled = true;
+}
+
+function suite306() {
+    document.getElementById('opacite204').classList.remove('opacite');
+    document.getElementById('opacite179').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('306').innerHTML;
+    document.getElementById('btn204_1').disabled = true;
+    document.getElementById('btn204_2').disabled = true;
+    document.getElementById('btn204_3').disabled = true;
+    document.getElementById('btn179_1').disabled = true;
+    document.getElementById('btn179_2').disabled = true;
 }
 
 // - Hey ! -
@@ -333,16 +367,24 @@ function suite209() {
     document.getElementById('btn119_2').disabled = true;
 }
 
-// - De mal en pis - & - Balconnet - & - Mais on est où là ? -
+// - De mal en pis - & - Balconnet - & - Mais on est où là ? - & - Retour dans le couloir - & - Prends-le, il est à toi - & - Ce qu'il ne fallait pas faire ! - & - Quel enfoiré ! -
 function suite333() {
     document.getElementById('opacite221').classList.remove('opacite');
     document.getElementById('opacite209').classList.remove('opacite');
     document.getElementById('opacite349').classList.remove('opacite');
+    document.getElementById('opacite378').classList.remove('opacite');
+    document.getElementById('opacite223').classList.remove('opacite');
+    document.getElementById('opacite323').classList.remove('opacite');
+    document.getElementById('opacite235').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('333').innerHTML;
     document.getElementById('btn221').disabled = true;
     document.getElementById('btn209_1').disabled = true;
     document.getElementById('btn209_2').disabled = true;
     document.getElementById('btn349').disabled = true;
+    document.getElementById('btn378').disabled = true;
+    document.getElementById('btn223').disabled = true;
+    document.getElementById('btn323').disabled = true;
+    document.getElementById('btn235').disabled = true;
 }
 
 function suite349() {
@@ -588,17 +630,59 @@ function suite186() {
     document.getElementById('btn493').disabled = true;
 }
 
-// - Le tueur de Crystal Lake -
+// - Le tueur de Crystal Lake - & - Bien ! - & - Mauvaise réponse ! -
 function suite115() {
     document.getElementById('opacite242').classList.remove('opacite');
+    document.getElementById('opacite126').classList.remove('opacite');
+    document.getElementById('opacite499').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('115').innerHTML;
     document.getElementById('btn242_1').disabled = true;
     document.getElementById('btn242_2').disabled = true;
+    document.getElementById('btn126_1').disabled = true;
+    document.getElementById('btn126_2').disabled = true;
+    document.getElementById('btn499_1').disabled = true;
+    document.getElementById('btn499_2').disabled = true;
 }
 
 function suite378() {
     document.getElementById('opacite242').classList.remove('opacite');
+    document.getElementById('opacite126').classList.remove('opacite');
+    document.getElementById('opacite499').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('378').innerHTML;
     document.getElementById('btn242_1').disabled = true;
     document.getElementById('btn242_2').disabled = true;
+    document.getElementById('btn126_1').disabled = true;
+    document.getElementById('btn126_2').disabled = true;
+    document.getElementById('btn499_1').disabled = true;
+    document.getElementById('btn499_2').disabled = true;
+}
+
+// - La semaine blanche -
+function suite126() {
+    document.getElementById('opacite186').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('126').innerHTML;
+    document.getElementById('btn186_1').disabled = true;
+    document.getElementById('btn186_2').disabled = true;
+}
+
+function suite499() {
+    document.getElementById('opacite186').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('499').innerHTML;
+    document.getElementById('btn186_1').disabled = true;
+    document.getElementById('btn186_2').disabled = true;
+}
+
+// - La légende était vraie ! -
+function suite223() {
+    document.getElementById('opacite115').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('223').innerHTML;
+    document.getElementById('btn115_1').disabled = true;
+    document.getElementById('btn115_2').disabled = true;
+}
+
+function suite323() {
+    document.getElementById('opacite115').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('323').innerHTML;
+    document.getElementById('btn115_1').disabled = true;
+    document.getElementById('btn115_2').disabled = true;
 }
