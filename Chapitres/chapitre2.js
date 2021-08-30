@@ -585,7 +585,7 @@ function suite430() {
     document.getElementById('btn366_2').disabled = true;
 }
 
-function suite430() {
+function suite235() {
     document.getElementById('opacite366').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('235').innerHTML;
     document.getElementById('btn366_1').disabled = true;
