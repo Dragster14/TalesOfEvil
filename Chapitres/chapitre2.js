@@ -377,7 +377,8 @@ function suite333() {
     document.getElementById('opacite323').classList.remove('opacite');
     document.getElementById('opacite235').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('333').innerHTML;
-    document.getElementById('btn221').disabled = true;
+    document.getElementById('btn221_1').disabled = true;
+    document.getElementById('btn221_2').disabled = true;
     document.getElementById('btn209_1').disabled = true;
     document.getElementById('btn209_2').disabled = true;
     document.getElementById('btn349').disabled = true;
