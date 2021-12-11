@@ -46,9 +46,43 @@ function suite297() {
     document.getElementById('btn239_2').disabled = true;
 }
 
-// - À la maison -
+// - À la maison - & - À la maison -
 function suite41() {
     document.getElementById('opacite233').classList.remove('opacite');
+    document.getElementById('opacite297').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('41').innerHTML;
     document.getElementById('btn233').disabled = true;
+    document.getElementById('btn297').disabled = true;
+}
+
+// - Au fond du puits - & - C'est quoi ce truc ? -
+function suite497() {
+    document.getElementById('opacite41').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('497').innerHTML;
+    document.getElementById('btn41_1').disabled = true;
+    document.getElementById('btn41_2').disabled = true;
+}
+
+function suite137() {
+    document.getElementById('opacite41').classList.remove('opacite');
+    document.getElementById('opacite497').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('137').innerHTML;
+    document.getElementById('btn41_1').disabled = true;
+    document.getElementById('btn41_2').disabled = true;
+    document.getElementById('btn497').disabled = true;
+}
+
+// - Tommy ! -
+function suite462() {
+    document.getElementById('opacit137').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('462').innerHTML;
+    document.getElementById('bt137_1').disabled = true;
+    document.getElementById('bt137_2').disabled = true;
+}
+
+function suite294() {
+    document.getElementById('opacit137').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('294').innerHTML;
+    document.getElementById('bt137_1').disabled = true;
+    document.getElementById('bt137_2').disabled = true;
 }
