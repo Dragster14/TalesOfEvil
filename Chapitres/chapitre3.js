@@ -86,3 +86,54 @@ function suite294() {
     document.getElementById('bt137_1').disabled = true;
     document.getElementById('bt137_2').disabled = true;
 }
+
+// - Tommyyy ! -
+function suite211() {
+    document.getElementById('opacit462').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('211').innerHTML;
+    document.getElementById('bt462').disabled = true;
+}
+
+// - Par dessus le baril ! -
+function suite312() {
+    document.getElementById('opacit294').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('312').innerHTML;
+    document.getElementById('bt294').disabled = true;
+}
+
+// - Un couloir familier -
+function suite172() {
+    document.getElementById('opacit211').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('172').innerHTML;
+    document.getElementById('bt211_1').disabled = true;
+    document.getElementById('bt211_2').disabled = true;
+    document.getElementById('bt211_3').disabled = true;
+    document.getElementById('bt211_4').disabled = true;
+}
+
+function suite403() {
+    document.getElementById('opacit211').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('403').innerHTML;
+    document.getElementById('bt211_1').disabled = true;
+    document.getElementById('bt211_2').disabled = true;
+    document.getElementById('bt211_3').disabled = true;
+    document.getElementById('bt211_4').disabled = true;
+}
+
+function suite285() {
+    document.getElementById('opacit211').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('285').innerHTML;
+    document.getElementById('bt211_1').disabled = true;
+    document.getElementById('bt211_2').disabled = true;
+    document.getElementById('bt211_3').disabled = true;
+    document.getElementById('bt211_4').disabled = true;
+}
+
+function suite423() {
+    document.getElementById('opacit211').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('423').innerHTML;
+    document.getElementById('bt211_1').disabled = true;
+    document.getElementById('bt211_2').disabled = true;
+    document.getElementById('bt211_3').disabled = true;
+    document.getElementById('bt211_4').disabled = true;
+}

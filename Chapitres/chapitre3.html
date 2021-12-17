@@ -404,11 +404,11 @@
                         En examinant la carte que nous avions trouvée, nous découvrîmes qu'il y avait des symboles à plusieurs endroits.
                     </p>
                     <p class="text-justify border-left border-dark pl-3">
-                        - Placez un jeton <span class="font-weight-bold">?</span> dans la zone <span class="font-weight-bold">6</span> de la tuile <span class="font-weight-bold">7</span> (symbole d'une tombe).
+                        - Placez un jeton <span class="font-weight-bold">Mystère</span> dans la zone <span class="font-weight-bold">6</span> de la tuile <span class="font-weight-bold">7</span> (symbole d'une tombe).
                         <br />
-                        - Placez un jeton <span class="font-weight-bold">?</span> dans la zone <span class="font-weight-bold">5</span> de la tuile <span class="font-weight-bold">8</span> (symbole d'un parchemin).
+                        - Placez un jeton <span class="font-weight-bold">Mystère</span> dans la zone <span class="font-weight-bold">5</span> de la tuile <span class="font-weight-bold">8</span> (symbole d'un parchemin).
                         <br />
-                        - Placez un jeton <span class="font-weight-bold">Empreintes</span> (les empreintes laissées par Tommy) dans la zone <span class="font-weight-bold">5</span> de la tuile <span class="font-weight-bold">5</span>.
+                        - Placez un jeton <span class="font-weight-bold">Piste</span> (les empreintes laissées par Tommy) dans la zone <span class="font-weight-bold">5</span> de la tuile <span class="font-weight-bold">5</span>.
                     </p>
                     <p class="text-justify">
                         <span class="font-italic">"Vous vous rappelez ce qu'à dit la Daphné du futur&nbsp;?"</span> demanda Leila.
@@ -431,7 +431,7 @@
         </div>
 
 <!-- Tommyyy ! -->
-        <div class="container-fluid " id="462">
+        <div class="container-fluid d-none" id="462">
             <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold text-break">
@@ -442,26 +442,65 @@
             <div class="row px-sm-5 opacite" id="opacite462">
                 <div class="col-12">
                     <p class="text-justify">
-                        
+                        Nous nous sommes retrouvés près d'un escalier. Les trois premières marchent étaient déjà recouvertes d'eau. Nous étions en train de monter lorsque l'escalier s'effondra. Nous avons remarqué avec horreur que la porte par laquelle nous étions passés était maintenant obstruée par l'escalier écroulé. Seule la porte <span class="font-italic">N</span> permettait d'avancer.
                     </p>
                     <p class="text-justify border-left border-dark pl-3">
-                        - 
+                        - <span class="font-weight-bold">H</span>&nbsp;= <span class="font-weight-bold"></span>
                         <br />
-                        - 
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
                         <br />
-                        - 
+                        - Placez un jeton <span class="font-weight-bold">Piste</span> dans la zone <span class="font-weight-bold">1</span> de la tuile <span class="font-weight-bold">5</span>.
                         <br />
-                        - 
+                        - Placez un jeton <span class="font-weight-bold">Piste</span> dans la zone <span class="font-weight-bold">1</span> de la tuile <span class="font-weight-bold">8</span>.
                     </p>
                     <button type="button" class="btn btn-dark my-3" id="btn462" onclick="suite211()">
-                        
+                        Nous passons par la porte N.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Un couloir familier -->
+        <div class="container-fluid " id="211">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        211 - Un couloir familier -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite211">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Cet endroit semblait familier, mais je m'étais habitué à ce que dans cette maison étrange, les pièces puissent se trouver à différents endroits en même temps. J'étais en train de réfléchir lorsque... <span class="font-weight-bold">[Carte Évènement]</span>
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Placez un jeton <span class="font-weight-bold">Piste</span> dans la zone <span class="font-weight-bold">1</span> de la tuile <span class="font-weight-bold">8</span>.
+                    </p>
+                    <p class="text-justify">
+                        Alors que nous choisissions vers où aller, nous avons entendu une lamentation venue de derrière une des portes.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn211_1" onclick="suite172()">
+                        1 - Nous ouvrons la porte (I).
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn211_2" onclick="suite403()">
+                        2 - Nous ouvrons la porte (lamentation).
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn211_3" onclick="suite285()">
+                        3 - Nous ouvrons la porte (L).
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn211_4" onclick="suite423()">
+                        4 - Nous ouvrons la porte N.
                     </button>
                 </div>
             </div>
         </div>
 
 <!-- Par dessus le baril ! -->
-        <div class="container-fluid " id="294">
+        <div class="container-fluid d-none" id="294">
             <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold text-break">
@@ -472,21 +511,49 @@
             <div class="row px-sm-5 opacite" id="opacite294">
                 <div class="col-12">
                     <p class="text-justify">
-                        
+                        La pièce était plongée dans la pénombre. Mais le plus inquiétant était ce qui se trouvait face à nous&nbsp;! Un énorme baril se leva du sol et nous observâmes avec horreur des jambes et des bras qui s'extrayaient de sa masse, tandis qu'il poussait un ricanement moqueur en se jetant sur nous&nbsp;!
                     </p>
                     <p class="text-justify border-left border-dark pl-3">
-
+                        <span class="font-weight-bold">Baril démoniaque</span>&nbsp;: <span class="font-weight-bold">Attaque 3 / (Santé Physique)</span>&nbsp;= nombre d'<span class="font-weight-bold">Investigateurs +2</span>.
                         <br />
-                        - 
+                        - Le baril <span class="font-weight-bold">Attaque</span> l'<span class="font-weight-bold">Investigateur</span> ayant le <span class="font-weight-bold">Talkie-walkie</span> qui se <span class="font-weight-bold">Défend</span>.
                         <br />
-                        - 
+                        - Puis celui-ci (uniquement) peut l'<span class="font-weight-bold">Attaquer</span> à son tour.
                         <br />
-                        - 
+                        - Le baril <span class="font-weight-bold">Attaque</span> ensuite l'<span class="font-weight-bold">Investigateur</span> suivant dans l'ordre du tour qui se <span class="font-weight-bold">Défend</span>. Cet <span class="font-weight-bold">Investigateur</span> (uniquement) peut ensuite <span class="font-weight-bold">Attaquer</span>. Continuez ensuite avec chaque <span class="font-weight-bold">Investigateur</span> dans l'ordre du tour.
                         <br />
-                        - 
+                        - Poursuivez ce cycle jusqu'à ce que tous les <span class="font-weight-bold">Investigateurs</span> soient <span class="font-weight-bold">Assommés</span> ou que le baril soit détruit.
                     </p>
                     <button type="button" class="btn btn-dark my-3" id="btn294" onclick="suite312()">
+                        On continue&nbsp;!
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Bon vent -->
+        <div class="container-fluid " id="312">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        312 - Bon vent -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite312">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - 
+                    </p>
+                    <p class="text-justify">
                         
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn312_1" onclick="suite199()">
+                        1 - 
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn312_2" onclick="suite353()">
+                        2 - 
                     </button>
                 </div>
             </div>
