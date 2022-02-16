@@ -74,66 +74,132 @@ function suite137() {
 
 // - Tommy ! -
 function suite462() {
-    document.getElementById('opacit137').classList.remove('opacite');
+    document.getElementById('opacite137').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('462').innerHTML;
-    document.getElementById('bt137_1').disabled = true;
-    document.getElementById('bt137_2').disabled = true;
+    document.getElementById('btn137_1').disabled = true;
+    document.getElementById('btn137_2').disabled = true;
 }
 
 function suite294() {
-    document.getElementById('opacit137').classList.remove('opacite');
+    document.getElementById('opacite137').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('294').innerHTML;
-    document.getElementById('bt137_1').disabled = true;
-    document.getElementById('bt137_2').disabled = true;
+    document.getElementById('btn137_1').disabled = true;
+    document.getElementById('btn137_2').disabled = true;
 }
 
 // - Tommyyy ! -
 function suite211() {
-    document.getElementById('opacit462').classList.remove('opacite');
+    document.getElementById('opacite462').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('211').innerHTML;
-    document.getElementById('bt462').disabled = true;
+    document.getElementById('btn462').disabled = true;
 }
 
 // - Par dessus le baril ! -
 function suite312() {
-    document.getElementById('opacit294').classList.remove('opacite');
+    document.getElementById('opacite294').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('312').innerHTML;
-    document.getElementById('bt294').disabled = true;
+    document.getElementById('btn294').disabled = true;
 }
 
-// - Un couloir familier -
+// - Un couloir familier - & - Juste une salle de bain sale - & - Salle d'eau - & - Un bel escalier -
 function suite172() {
-    document.getElementById('opacit211').classList.remove('opacite');
+    document.getElementById('opacite211').classList.remove('opacite');
+    document.getElementById('opacite403').classList.remove('opacite');
+    document.getElementById('opacite285').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('172').innerHTML;
-    document.getElementById('bt211_1').disabled = true;
-    document.getElementById('bt211_2').disabled = true;
-    document.getElementById('bt211_3').disabled = true;
-    document.getElementById('bt211_4').disabled = true;
+    document.getElementById('btn211_1').disabled = true;
+    document.getElementById('btn211_2').disabled = true;
+    document.getElementById('btn211_3').disabled = true;
+    document.getElementById('btn211_4').disabled = true;
+    document.getElementById('btn403_1').disabled = true;
+    document.getElementById('btn403_2').disabled = true;
+    document.getElementById('btn403_3').disabled = true;
+    document.getElementById('btn285_1').disabled = true;
+    document.getElementById('btn285_2').disabled = true;
+    document.getElementById('btn285_3').disabled = true;
 }
 
 function suite403() {
-    document.getElementById('opacit211').classList.remove('opacite');
+    document.getElementById('opacite211').classList.remove('opacite');
+    document.getElementById('opacite172').classList.remove('opacite');
+    document.getElementById('opacite285').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('403').innerHTML;
-    document.getElementById('bt211_1').disabled = true;
-    document.getElementById('bt211_2').disabled = true;
-    document.getElementById('bt211_3').disabled = true;
-    document.getElementById('bt211_4').disabled = true;
+    document.getElementById('btn211_1').disabled = true;
+    document.getElementById('btn211_2').disabled = true;
+    document.getElementById('btn211_3').disabled = true;
+    document.getElementById('btn211_4').disabled = true;
+    document.getElementById('btn172_1').disabled = true;
+    document.getElementById('btn172_2').disabled = true;
+    document.getElementById('btn172_3').disabled = true;
+    document.getElementById('btn285_1').disabled = true;
+    document.getElementById('btn285_2').disabled = true;
+    document.getElementById('btn285_3').disabled = true;
 }
 
 function suite285() {
-    document.getElementById('opacit211').classList.remove('opacite');
+    document.getElementById('opacite211').classList.remove('opacite');
+    document.getElementById('opacite172').classList.remove('opacite');
+    document.getElementById('opacite403').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('285').innerHTML;
-    document.getElementById('bt211_1').disabled = true;
-    document.getElementById('bt211_2').disabled = true;
-    document.getElementById('bt211_3').disabled = true;
-    document.getElementById('bt211_4').disabled = true;
+    document.getElementById('btn211_1').disabled = true;
+    document.getElementById('btn211_2').disabled = true;
+    document.getElementById('btn211_3').disabled = true;
+    document.getElementById('btn211_4').disabled = true;
+    document.getElementById('btn172_1').disabled = true;
+    document.getElementById('btn172_2').disabled = true;
+    document.getElementById('btn172_3').disabled = true;
+    document.getElementById('btn403_1').disabled = true;
+    document.getElementById('btn403_2').disabled = true;
+    document.getElementById('btn403_3').disabled = true;
 }
 
 function suite423() {
-    document.getElementById('opacit211').classList.remove('opacite');
+    document.getElementById('opacite211').classList.remove('opacite');
+    document.getElementById('opacite172').classList.remove('opacite');
+    document.getElementById('opacite403').classList.remove('opacite');
+    document.getElementById('opacite285').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('423').innerHTML;
-    document.getElementById('bt211_1').disabled = true;
-    document.getElementById('bt211_2').disabled = true;
-    document.getElementById('bt211_3').disabled = true;
-    document.getElementById('bt211_4').disabled = true;
+    document.getElementById('btn211_1').disabled = true;
+    document.getElementById('btn211_2').disabled = true;
+    document.getElementById('btn211_3').disabled = true;
+    document.getElementById('btn211_4').disabled = true;
+    document.getElementById('btn172_1').disabled = true;
+    document.getElementById('btn172_2').disabled = true;
+    document.getElementById('btn172_3').disabled = true;
+    document.getElementById('btn403_1').disabled = true;
+    document.getElementById('btn403_2').disabled = true;
+    document.getElementById('btn403_3').disabled = true;
+    document.getElementById('btn285_1').disabled = true;
+    document.getElementById('btn285_2').disabled = true;
+    document.getElementById('btn285_3').disabled = true;
+}
+
+// - Bon vent -
+function suite199() {
+    document.getElementById('opacite312').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('199').innerHTML;
+    document.getElementById('btn312_1').disabled = true;
+    document.getElementById('btn312_2').disabled = true;
+}
+
+function suite353() {
+    document.getElementById('opacite312').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('353').innerHTML;
+    document.getElementById('btn312_1').disabled = true;
+    document.getElementById('btn312_2').disabled = true;
+}
+
+// - En bonne voie... -
+function suite167() {
+    document.getElementById('opacite423').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('167').innerHTML;
+    document.getElementById('btn423_1').disabled = true;
+    document.getElementById('btn423_2').disabled = true;
+}
+
+function suite426() {
+    document.getElementById('opacite423').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('426').innerHTML;
+    document.getElementById('btn423_1').disabled = true;
+    document.getElementById('btn423_2').disabled = true;
 }
