@@ -203,3 +203,33 @@ function suite426() {
     document.getElementById('btn423_1').disabled = true;
     document.getElementById('btn423_2').disabled = true;
 }
+
+// - Un passage -
+function suite72() {
+    document.getElementById('opacite167').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('72').innerHTML;
+    document.getElementById('btn167_1').disabled = true;
+    document.getElementById('btn167_2').disabled = true;
+}
+
+function suite456() {
+    document.getElementById('opacite167').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('456').innerHTML;
+    document.getElementById('btn167_1').disabled = true;
+    document.getElementById('btn167_2').disabled = true;
+}
+
+// - Pièce dérangeante -
+function suite202() {
+    document.getElementById('opacite426').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('202').innerHTML;
+    document.getElementById('btn426_1').disabled = true;
+    document.getElementById('btn426_2').disabled = true;
+}
+
+function suite320() {
+    document.getElementById('opacite426').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('320').innerHTML;
+    document.getElementById('btn426_1').disabled = true;
+    document.getElementById('btn426_2').disabled = true;
+}
