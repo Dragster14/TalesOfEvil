@@ -233,3 +233,17 @@ function suite320() {
     document.getElementById('btn426_1').disabled = true;
     document.getElementById('btn426_2').disabled = true;
 }
+
+// - C'est un piège ! -
+function suite452() {
+    document.getElementById('opacite72').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('452').innerHTML;
+    document.getElementById('btn72').disabled = true;
+}
+
+// - PsssPsss -
+function suite471() {
+    document.getElementById('opacite452').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('471').innerHTML;
+    document.getElementById('btn452').disabled = true;
+}
