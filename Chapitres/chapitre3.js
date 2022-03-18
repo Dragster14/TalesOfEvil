@@ -247,3 +247,61 @@ function suite471() {
     vHistoire.innerHTML += document.getElementById('471').innerHTML;
     document.getElementById('btn452').disabled = true;
 }
+
+// - Oh, bon sang ! -
+function suite86() {
+    document.getElementById('opacite471').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('86').innerHTML;
+    document.getElementById('btn471').disabled = true;
+}
+
+// - L'aquarium -
+function suite136() {
+    document.getElementById('opacite86').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('136').innerHTML;
+    document.getElementById('btn86').disabled = true;
+}
+
+// - Un autre couloir - & - Non, non ! (121) - & - Non, non ! (374) -
+function suite121() {
+    document.getElementById('opacite136').classList.remove('opacite');
+    document.getElementById('opacite374').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('121').innerHTML;
+    document.getElementById('btn136_1').disabled = true;
+    document.getElementById('btn136_2').disabled = true;
+    document.getElementById('btn136_3').disabled = true;
+    document.getElementById('btn374_1').disabled = true;
+    document.getElementById('btn374_2').disabled = true;
+}
+
+function suite374() {
+    document.getElementById('opacite136').classList.remove('opacite');
+    document.getElementById('opacite121').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('374').innerHTML;
+    document.getElementById('btn136_1').disabled = true;
+    document.getElementById('btn136_2').disabled = true;
+    document.getElementById('btn136_3').disabled = true;
+    document.getElementById('btn121_1').disabled = true;
+    document.getElementById('btn121_2').disabled = true;
+}
+
+function suite299() {
+    document.getElementById('opacite136').classList.remove('opacite');
+    document.getElementById('opacite121').classList.remove('opacite');
+    document.getElementById('opacite374').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('299').innerHTML;
+    document.getElementById('btn136_1').disabled = true;
+    document.getElementById('btn136_2').disabled = true;
+    document.getElementById('btn136_3').disabled = true;
+    document.getElementById('btn121_1').disabled = true;
+    document.getElementById('btn121_2').disabled = true;
+    document.getElementById('btn374_1').disabled = true;
+    document.getElementById('btn374_2').disabled = true;
+}
+
+// - Peut-être... -
+function suite304() {
+    document.getElementById('opacite299').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('304').innerHTML;
+    document.getElementById('btn299').disabled = true;
+}
