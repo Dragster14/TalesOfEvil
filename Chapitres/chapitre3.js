@@ -105,7 +105,6 @@ function suite312() {
 function suite172() {
     document.getElementById('opacite211').classList.remove('opacite');
     document.getElementById('opacite403').classList.remove('opacite');
-    document.getElementById('opacite285').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('172').innerHTML;
     document.getElementById('btn211_1').disabled = true;
     document.getElementById('btn211_2').disabled = true;
@@ -114,40 +113,103 @@ function suite172() {
     document.getElementById('btn403_1').disabled = true;
     document.getElementById('btn403_2').disabled = true;
     document.getElementById('btn403_3').disabled = true;
+}
+
+function suite172_bis1() {
+    document.getElementById('opacite285_bis3').classList.remove('opacite');
+    document.getElementById('opacite403_bis2').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('172_bis1').innerHTML;
+    document.getElementById('btn285_bis3_1').disabled = true;
+    document.getElementById('btn285_bis3_2').disabled = true;
+    document.getElementById('btn403_bis2_1').disabled = true;
+    document.getElementById('btn403_bis2_2').disabled = true;
+}
+
+function suite172_bis2() {
+    document.getElementById('opacite285').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('172_bis2').innerHTML;
     document.getElementById('btn285_1').disabled = true;
     document.getElementById('btn285_2').disabled = true;
     document.getElementById('btn285_3').disabled = true;
 }
 
+function suite172_bis3() {
+    document.getElementById('opacite403').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('172_bis3').innerHTML;
+    document.getElementById('btn403_1').disabled = true;
+    document.getElementById('btn403_2').disabled = true;
+    document.getElementById('btn403_3').disabled = true;
+}
+
 function suite403() {
     document.getElementById('opacite211').classList.remove('opacite');
-    document.getElementById('opacite172').classList.remove('opacite');
-    document.getElementById('opacite285').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('403').innerHTML;
     document.getElementById('btn211_1').disabled = true;
     document.getElementById('btn211_2').disabled = true;
     document.getElementById('btn211_3').disabled = true;
     document.getElementById('btn211_4').disabled = true;
+}
+
+function suite403_bis1() {
+    document.getElementById('opacite172').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('403_bis1').innerHTML;
     document.getElementById('btn172_1').disabled = true;
     document.getElementById('btn172_2').disabled = true;
     document.getElementById('btn172_3').disabled = true;
+}
+
+function suite403_bis2() {
+    document.getElementById('opacite285').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('403_bis2').innerHTML;
     document.getElementById('btn285_1').disabled = true;
     document.getElementById('btn285_2').disabled = true;
     document.getElementById('btn285_3').disabled = true;
 }
 
+function suite403_bis3() {
+    document.getElementById('opacite172_bis2').classList.remove('opacite');
+    document.getElementById('opacite285_bis1').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('403_bis3').innerHTML;
+    document.getElementById('btn172_bis2_1').disabled = true;
+    document.getElementById('btn172_bis2_2').disabled = true;
+    document.getElementById('btn285_bis1_1').disabled = true;
+    document.getElementById('btn285_bis1_2').disabled = true;
+}
+
 function suite285() {
     document.getElementById('opacite211').classList.remove('opacite');
-    document.getElementById('opacite172').classList.remove('opacite');
     document.getElementById('opacite403').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('285').innerHTML;
     document.getElementById('btn211_1').disabled = true;
     document.getElementById('btn211_2').disabled = true;
     document.getElementById('btn211_3').disabled = true;
     document.getElementById('btn211_4').disabled = true;
+    document.getElementById('btn403_1').disabled = true;
+    document.getElementById('btn403_2').disabled = true;
+    document.getElementById('btn403_3').disabled = true;
+}
+
+function suite285_bis1() {
+    document.getElementById('opacite172').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('285_bis1').innerHTML;
     document.getElementById('btn172_1').disabled = true;
     document.getElementById('btn172_2').disabled = true;
     document.getElementById('btn172_3').disabled = true;
+}
+
+function suite285_bis2() {
+    document.getElementById('opacite403_bis1').classList.remove('opacite');
+    document.getElementById('opacite172_bis3').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('285_bis2').innerHTML;
+    document.getElementById('btn403_bis1_1').disabled = true;
+    document.getElementById('btn403_bis1_2').disabled = true;
+    document.getElementById('btn172_bis3_1').disabled = true;
+    document.getElementById('btn172_bis3_2').disabled = true;
+}
+
+function suite285_bis3() {
+    document.getElementById('opacite403').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('285_bis3').innerHTML;
     document.getElementById('btn403_1').disabled = true;
     document.getElementById('btn403_2').disabled = true;
     document.getElementById('btn403_3').disabled = true;
@@ -155,23 +217,47 @@ function suite285() {
 
 function suite423() {
     document.getElementById('opacite211').classList.remove('opacite');
-    document.getElementById('opacite172').classList.remove('opacite');
-    document.getElementById('opacite403').classList.remove('opacite');
     document.getElementById('opacite285').classList.remove('opacite');
+    document.getElementById('opacite285_bis1').classList.remove('opacite');
+    document.getElementById('opacite285_bis2').classList.remove('opacite');
+    document.getElementById('opacite285_bis3').classList.remove('opacite');
+    document.getElementById('opacite172').classList.remove('opacite');
+    document.getElementById('opacite172_bis1').classList.remove('opacite');
+    document.getElementById('opacite172_bis2').classList.remove('opacite');
+    document.getElementById('opacite172_bis3').classList.remove('opacite');
+    document.getElementById('opacite403').classList.remove('opacite');
+    document.getElementById('opacite403_bis1').classList.remove('opacite');
+    document.getElementById('opacite403_bis2').classList.remove('opacite');
+    document.getElementById('opacite403_bis3').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('423').innerHTML;
     document.getElementById('btn211_1').disabled = true;
     document.getElementById('btn211_2').disabled = true;
     document.getElementById('btn211_3').disabled = true;
     document.getElementById('btn211_4').disabled = true;
-    document.getElementById('btn172_1').disabled = true;
-    document.getElementById('btn172_2').disabled = true;
-    document.getElementById('btn172_3').disabled = true;
-    document.getElementById('btn403_1').disabled = true;
-    document.getElementById('btn403_2').disabled = true;
-    document.getElementById('btn403_3').disabled = true;
     document.getElementById('btn285_1').disabled = true;
     document.getElementById('btn285_2').disabled = true;
     document.getElementById('btn285_3').disabled = true;
+    document.getElementById('btn285_bis1_1').disabled = true;
+    document.getElementById('btn285_bis1_2').disabled = true;
+    document.getElementById('btn285_bis2').disabled = true;
+    document.getElementById('btn285_bis3_1').disabled = true;
+    document.getElementById('btn285_bis3_2').disabled = true;
+    document.getElementById('btn172_1').disabled = true;
+    document.getElementById('btn172_2').disabled = true;
+    document.getElementById('btn172_3').disabled = true;
+    document.getElementById('btn172_bis1').disabled = true;
+    document.getElementById('btn172_bis2_1').disabled = true;
+    document.getElementById('btn172_bis2_2').disabled = true;
+    document.getElementById('btn172_bis3_1').disabled = true;
+    document.getElementById('btn172_bis3_2').disabled = true;
+    document.getElementById('btn403_1').disabled = true;
+    document.getElementById('btn403_2').disabled = true;
+    document.getElementById('btn403_3').disabled = true;
+    document.getElementById('btn403_bis1_1').disabled = true;
+    document.getElementById('btn403_bis1_2').disabled = true;
+    document.getElementById('btn403_bis2_1').disabled = true;
+    document.getElementById('btn403_bis2_2').disabled = true;
+    document.getElementById('btn403_bis3').disabled = true;
 }
 
 // - Bon vent -
@@ -262,7 +348,7 @@ function suite136() {
     document.getElementById('btn86').disabled = true;
 }
 
-// - Un autre couloir - & - Non, non ! (121) - & - Non, non ! (374) -
+// - Un autre couloir - & - Non, non ! (121) - & - Non, non ! (121_bis) - & - Non, non ! (374) - & - Non, non ! (374_bis) -
 function suite121() {
     document.getElementById('opacite136').classList.remove('opacite');
     document.getElementById('opacite374').classList.remove('opacite');
@@ -272,6 +358,13 @@ function suite121() {
     document.getElementById('btn136_3').disabled = true;
     document.getElementById('btn374_1').disabled = true;
     document.getElementById('btn374_2').disabled = true;
+}
+
+function suite121_bis() {
+    document.getElementById('opacite374_bis').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('121_bis').innerHTML;
+    document.getElementById('btn374_bis_1').disabled = true;
+    document.getElementById('btn374_bis_2').disabled = true;
 }
 
 function suite374() {
@@ -285,18 +378,28 @@ function suite374() {
     document.getElementById('btn121_2').disabled = true;
 }
 
+function suite374_bis() {
+    document.getElementById('opacite136').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('374_bis').innerHTML;
+    document.getElementById('btn136_1').disabled = true;
+    document.getElementById('btn136_2').disabled = true;
+    document.getElementById('btn136_3').disabled = true;
+}
+
 function suite299() {
     document.getElementById('opacite136').classList.remove('opacite');
     document.getElementById('opacite121').classList.remove('opacite');
     document.getElementById('opacite374').classList.remove('opacite');
+    document.getElementById('opacite374_bis').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('299').innerHTML;
     document.getElementById('btn136_1').disabled = true;
     document.getElementById('btn136_2').disabled = true;
     document.getElementById('btn136_3').disabled = true;
     document.getElementById('btn121_1').disabled = true;
     document.getElementById('btn121_2').disabled = true;
-    document.getElementById('btn374_1').disabled = true;
-    document.getElementById('btn374_2').disabled = true;
+    document.getElementById('btn374').disabled = true;
+    document.getElementById('btn374_bis_1').disabled = true;
+    document.getElementById('btn374_bis_2').disabled = true;
 }
 
 // - Peut-être... -

@@ -408,7 +408,7 @@
                         <br />
                         - Placez un jeton <span class="font-weight-bold">Mystère</span> dans la zone <span class="font-weight-bold">5</span> de la tuile <span class="font-weight-bold">8</span> (symbole d'un parchemin).
                         <br />
-                        - Placez un jeton <span class="font-weight-bold">Piste</span> (les empreintes laissées par Tommy) dans la zone <span class="font-weight-bold">5</span> de la tuile <span class="font-weight-bold">5</span>.
+                        - Placez un jeton <span class="font-weight-bold">Empreintes</span> (les empreintes laissées par Tommy) dans la zone <span class="font-weight-bold">5</span> de la tuile <span class="font-weight-bold">5</span>.
                     </p>
                     <p class="text-justify">
                         <span class="font-italic">"Vous vous rappelez ce qu'à dit la Daphné du futur&nbsp;?"</span> demanda Leila.
@@ -449,9 +449,9 @@
                         <br />
                         - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
                         <br />
-                        - Placez un jeton <span class="font-weight-bold">Piste</span> dans la zone <span class="font-weight-bold">1</span> de la tuile <span class="font-weight-bold">5</span>.
+                        - Placez un jeton <span class="font-weight-bold">Empreintes</span> dans la zone <span class="font-weight-bold">1</span> de la tuile <span class="font-weight-bold">5</span>.
                         <br />
-                        - Placez un jeton <span class="font-weight-bold">Piste</span> dans la zone <span class="font-weight-bold">1</span> de la tuile <span class="font-weight-bold">8</span>.
+                        - Placez un jeton <span class="font-weight-bold">Empreintes</span> dans la zone <span class="font-weight-bold">1</span> de la tuile <span class="font-weight-bold">8</span>.
                     </p>
                     <button type="button" class="btn btn-dark my-3" id="btn462" onclick="suite211()">
                         Nous passons par la porte N.
@@ -475,7 +475,7 @@
                         Cet endroit semblait familier, mais je m'étais habitué à ce que dans cette maison étrange, les pièces puissent se trouver à différents endroits en même temps. J'étais en train de réfléchir lorsque... <span class="font-weight-bold">[Carte Évènement]</span>
                     </p>
                     <p class="text-justify border-left border-dark pl-3">
-                        - Placez un jeton <span class="font-weight-bold">Piste</span> dans la zone <span class="font-weight-bold">1</span> de la tuile <span class="font-weight-bold">8</span>.
+                        - Placez un jeton <span class="font-weight-bold">Empreintes</span> dans la zone <span class="font-weight-bold">1</span> de la tuile <span class="font-weight-bold">8</span>.
                     </p>
                     <p class="text-justify">
                         Alors que nous choisissions vers où aller, nous avons entendu une lamentation venue de derrière une des portes.
@@ -493,7 +493,7 @@
                     </button>
                     <br />
                     <button type="button" class="btn btn-dark mb-3" id="btn211_4" onclick="suite423()">
-                        4 - Nous ouvrons la porte N.
+                        4 - Nous ouvrons la porte B.
                     </button>
                 </div>
             </div>
@@ -516,16 +516,96 @@
                     <p class="text-justify">
                         <span class="font-italic">"Les gars"</span>, dit la Voix par le Talkie-walkie, <span class="font-italic">"n'hésitez pas trop. La maison va être inondée et vous n'aurez pas d'autre chance de trouver Tommy. Suivez donc ses traces..."</span>
                     </p>
-                    <button type="button" class="btn btn-dark my-3" id="btn172_1" onclick="suite403()">
+                    <button type="button" class="btn btn-dark my-3" id="btn172_1" onclick="suite403_bis1()">
                         1 - Nous ouvrons la porte M.
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3" id="btn172_2" onclick="suite285()">
+                    <button type="button" class="btn btn-dark mb-3" id="btn172_2" onclick="suite285_bis1()">
                         2 - Nous ouvrons la porte (L).
                     </button>
                     <br />
                     <button type="button" class="btn btn-dark mb-3" id="btn172_3" onclick="suite423()">
                         3 - Nous ouvrons la porte B.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Juste une salle de bain sale -->
+        <div class="container-fluid d-none" id="172_bis1">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        172 - Juste une salle de bain sale -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite172_bis1">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <p class="text-justify">
+                        <span class="font-italic">"Les gars"</span>, dit la Voix par le Talkie-walkie, <span class="font-italic">"n'hésitez pas trop. La maison va être inondée et vous n'aurez pas d'autre chance de trouver Tommy. Suivez donc ses traces..."</span>
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn172_bis1" onclick="suite423()">
+                        Nous ouvrons la porte B.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Juste une salle de bain sale -->
+        <div class="container-fluid d-none" id="172_bis2">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        172 - Juste une salle de bain sale -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite172_bis2">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <p class="text-justify">
+                        <span class="font-italic">"Les gars"</span>, dit la Voix par le Talkie-walkie, <span class="font-italic">"n'hésitez pas trop. La maison va être inondée et vous n'aurez pas d'autre chance de trouver Tommy. Suivez donc ses traces..."</span>
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn172_bis2_1" onclick="suite403_bis3()">
+                        1 - Nous ouvrons la porte M.
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn172_bis2_2" onclick="suite423()">
+                        2 - Nous ouvrons la porte B.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Juste une salle de bain sale -->
+        <div class="container-fluid d-none" id="172_bis3">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        172 - Juste une salle de bain sale -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite172_bis3">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <p class="text-justify">
+                        <span class="font-italic">"Les gars"</span>, dit la Voix par le Talkie-walkie, <span class="font-italic">"n'hésitez pas trop. La maison va être inondée et vous n'aurez pas d'autre chance de trouver Tommy. Suivez donc ses traces..."</span>
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn172_bis3_1" onclick="suite285_bis2()">
+                        1 - Nous ouvrons la porte (L).
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn172_bis3_2" onclick="suite423()">
+                        2 - Nous ouvrons la porte B.
                     </button>
                 </div>
             </div>
@@ -548,16 +628,96 @@
                     <p class="text-justify border-left border-dark pl-3">
                         - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
                     </p>
-                    <button type="button" class="btn btn-dark my-3" id="btn403_1" onclick="suite172()">
+                    <button type="button" class="btn btn-dark my-3" id="btn403_1" onclick="suite172_bis3()">
                         1 - Nous ouvrons la porte (I).
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3" id="btn403_2" onclick="suite285()">
+                    <button type="button" class="btn btn-dark mb-3" id="btn403_2" onclick="suite285_bis3()">
                         2 - Nous ouvrons la porte (L).
                     </button>
                     <br />
                     <button type="button" class="btn btn-dark mb-3" id="btn403_3" onclick="suite423()">
                         3 - Nous ouvrons la porte B.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Salle d'eau -->
+        <div class="container-fluid d-none" id="403_bis1">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        403 - Salle d'eau -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite403_bis1">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Lorsque nous sommes entrés, la porte s'est refermée derrière nous et la lamentation est devenue un chant insupportable. Il nous a fallu un bon moment avant de pouvoir forcer la porte et revenir dans le couloir.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn403_bis1_1" onclick="suite285_bis2()">
+                        1 - Nous ouvrons la porte (L).
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn403_bis1_2" onclick="suite423()">
+                        2 - Nous ouvrons la porte B.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Salle d'eau -->
+        <div class="container-fluid d-none" id="403_bis2">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        403 - Salle d'eau -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite403_bis2">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Lorsque nous sommes entrés, la porte s'est refermée derrière nous et la lamentation est devenue un chant insupportable. Il nous a fallu un bon moment avant de pouvoir forcer la porte et revenir dans le couloir.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn403_bis2_1" onclick="suite172_bis1()">
+                        1 - Nous ouvrons la porte (I).
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn403_bis2_2" onclick="suite423()">
+                        2 - Nous ouvrons la porte B.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Salle d'eau -->
+        <div class="container-fluid d-none" id="403_bis3">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        403 - Salle d'eau -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite403_bis3">
+                <div class="col-12">
+                    <p class="text-justify">
+                        Lorsque nous sommes entrés, la porte s'est refermée derrière nous et la lamentation est devenue un chant insupportable. Il nous a fallu un bon moment avant de pouvoir forcer la porte et revenir dans le couloir.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn403_bis3" onclick="suite423()">
+                        Nous ouvrons la porte B.
                     </button>
                 </div>
             </div>
@@ -580,16 +740,96 @@
                     <p class="text-justify">
                         <span class="font-italic">"Les enfants,"</span> dit la Voix par le Talkie-walkie, <span class="font-italic">"vous ne réalisez peut-être pas que vous n'avez pas beaucoup de temps..."</span>
                     </p>
-                    <button type="button" class="btn btn-dark my-3" id="btn285_1" onclick="suite172()">
+                    <button type="button" class="btn btn-dark my-3" id="btn285_1" onclick="suite172_bis2()">
                         1 - Nous ouvrons la porte (I).
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3" id="btn285_2" onclick="suite403()">
+                    <button type="button" class="btn btn-dark mb-3" id="btn285_2" onclick="suite403_bis2()">
                         2 - Nous ouvrons la porte M.
                     </button>
                     <br />
                     <button type="button" class="btn btn-dark mb-3" id="btn285_3" onclick="suite423()">
                         3 - Nous ouvrons la porte B.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Un bel escalier -->
+        <div class="container-fluid d-none" id="285_bis1">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        285 - Un bel escalier -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite285_bis1">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <p class="text-justify">
+                        <span class="font-italic">"Les enfants,"</span> dit la Voix par le Talkie-walkie, <span class="font-italic">"vous ne réalisez peut-être pas que vous n'avez pas beaucoup de temps..."</span>
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn285_bis1_1" onclick="suite403_bis3()">
+                        1 - Nous ouvrons la porte M.
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn285_bis1_2" onclick="suite423()">
+                        2 - Nous ouvrons la porte B.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Un bel escalier -->
+        <div class="container-fluid d-none" id="285_bis2">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        285 - Un bel escalier -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite285_bis2">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <p class="text-justify">
+                        <span class="font-italic">"Les enfants,"</span> dit la Voix par le Talkie-walkie, <span class="font-italic">"vous ne réalisez peut-être pas que vous n'avez pas beaucoup de temps..."</span>
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn285_bis2" onclick="suite423()">
+                        Nous ouvrons la porte B.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Un bel escalier -->
+        <div class="container-fluid d-none" id="285_bis3">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        285 - Un bel escalier -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite285_bis3">
+                <div class="col-12">
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <p class="text-justify">
+                        <span class="font-italic">"Les enfants,"</span> dit la Voix par le Talkie-walkie, <span class="font-italic">"vous ne réalisez peut-être pas que vous n'avez pas beaucoup de temps..."</span>
+                    </p>
+                    <button type="button" class="btn btn-dark mb-3" id="btn285_bis3_1" onclick="suite172_bis1()">
+                        1 - Nous ouvrons la porte (I).
+                    </button>
+                    <br />
+                    <button type="button" class="btn btn-dark mb-3" id="btn285_bis3_2" onclick="suite423()">
+                        2 - Nous ouvrons la porte B.
                     </button>
                 </div>
             </div>
@@ -655,7 +895,7 @@
                     </button>
                     <br />
                     <button type="button" class="btn btn-dark mb-3" id="btn167_2" onclick="suite456()">
-                        2 - Nous nous intéressons à l'Indice (?) en ouvront la porte M.
+                        2 - Nous nous intéressons à l'Indice (?) en ouvrant la porte M.
                     </button>
                 </div>
             </div>
@@ -791,7 +1031,7 @@
         </div>
 
 <!-- Un autre couloir -->
-        <div class="container-fluid " id="136">
+        <div class="container-fluid d-none" id="136">
             <div class="row mt-5">
                 <div class="col-12 mb-3">
                     <h4 class="font-weight-bold text-break">
@@ -808,7 +1048,7 @@
                         1 - Nous courons vers la porte I pour échapper à ce piège.
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3" id="btn136_2" onclick="suite374()">
+                    <button type="button" class="btn btn-dark mb-3" id="btn136_2" onclick="suite374_bis()">
                         2 - Nous tentons de forcer la porte (L).
                     </button>
                     <br />
@@ -848,6 +1088,30 @@
         </div>
 
 <!-- Non, non ! -->
+        <div class="container-fluid d-none" id="121_bis">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        121 - Non, non&nbsp;! -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite121_bis">
+                <div class="col-12">
+                    <p class="text-justify">
+                        La porte était scellée et résista à toutes nos tentatives pour l'ouvrir.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn121_bis" onclick="suite299()">
+                        Nous inspectons les lieux pour voir s'il y a une alternative.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Non, non ! -->
         <div class="container-fluid d-none" id="374">
             <div class="row mt-5">
                 <div class="col-12 mb-3">
@@ -864,11 +1128,35 @@
                     <p class="text-justify border-left border-dark pl-3">
                         - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
                     </p>
-                    <button type="button" class="btn btn-dark my-3" id="btn374_1" onclick="suite121()">
+                    <button type="button" class="btn btn-dark my-3" id="btn374" onclick="suite299()">
+                        Nous inspectons les lieux pour voir s'il y a une alternative.
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Non, non ! -->
+        <div class="container-fluid d-none" id="374_bis">
+            <div class="row mt-5">
+                <div class="col-12 mb-3">
+                    <h4 class="font-weight-bold text-break">
+                        374 - Non, non&nbsp;! -
+                    </h4>
+                </div>
+            </div>
+            <div class="row px-sm-5 opacite" id="opacite374_bis">
+                <div class="col-12">
+                    <p class="text-justify">
+                        La porte était scellée et résista à toutes nos tentatives pour l'ouvrir.
+                    </p>
+                    <p class="text-justify border-left border-dark pl-3">
+                        - Avancez le jeton <span class="font-weight-bold">Panique</span> d'un cran.
+                    </p>
+                    <button type="button" class="btn btn-dark my-3" id="btn374_bis_1" onclick="suite121_bis()">
                         1 - Nous courons vers la porte I, pour échapper à ce piège.
                     </button>
                     <br />
-                    <button type="button" class="btn btn-dark mb-3" id="btn374_2" onclick="suite299()">
+                    <button type="button" class="btn btn-dark mb-3" id="btn374_bis_2" onclick="suite299()">
                         2 - Nous inspectons les lieux pour voir s'il y a une alternative.
                     </button>
                 </div>
