@@ -408,3 +408,39 @@ function suite304() {
     vHistoire.innerHTML += document.getElementById('304').innerHTML;
     document.getElementById('btn299').disabled = true;
 }
+
+// - L'atelier -
+function suite286() {
+    document.getElementById('opacite304').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('286').innerHTML;
+    document.getElementById('btn304_1').disabled = true;
+    document.getElementById('btn304_2').disabled = true;
+    document.getElementById('btn304_3').disabled = true;
+}
+
+function suite84() {
+    document.getElementById('opacite304').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('84').innerHTML;
+    document.getElementById('btn304_1').disabled = true;
+    document.getElementById('btn304_2').disabled = true;
+    document.getElementById('btn304_3').disabled = true;
+}
+
+function suite63() {
+    document.getElementById('opacite304').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('63').innerHTML;
+    document.getElementById('btn304_1').disabled = true;
+    document.getElementById('btn304_2').disabled = true;
+    document.getElementById('btn304_3').disabled = true;
+}
+
+// - Deux - & - Quatre - & - Cinq -
+function suite356() {
+    document.getElementById('opacite286').classList.remove('opacite');
+    document.getElementById('opacite84').classList.remove('opacite');
+    document.getElementById('opacite63').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('356').innerHTML;
+    document.getElementById('btn286').disabled = true;
+    document.getElementById('btn84').disabled = true;
+    document.getElementById('btn63').disabled = true;
+}
