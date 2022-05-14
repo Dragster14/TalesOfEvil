@@ -444,3 +444,93 @@ function suite356() {
     document.getElementById('btn84').disabled = true;
     document.getElementById('btn63').disabled = true;
 }
+
+// - La salle du fauteuil roulant - & - Ahhhhhhhhhh ! -
+function suite326() {
+    document.getElementById('opacite356').classList.remove('opacite');
+    document.getElementById('opacite478').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('326').innerHTML;
+    document.getElementById('btn356_1').disabled = true;
+    document.getElementById('btn356_2').disabled = true;
+    document.getElementById('btn478').disabled = true;
+}
+
+function suite478() {
+    document.getElementById('opacite356').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('478').innerHTML;
+    document.getElementById('btn356_1').disabled = true;
+    document.getElementById('btn356_2').disabled = true;
+}
+
+// - Le fantôme -
+function suite195() {
+    document.getElementById('opacite326').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('195').innerHTML;
+    document.getElementById('btn326_1').disabled = true;
+    document.getElementById('btn326_2').disabled = true;
+    document.getElementById('btn326_3').disabled = true;
+}
+
+function suite410() {
+    document.getElementById('opacite326').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('410').innerHTML;
+    document.getElementById('btn326_1').disabled = true;
+    document.getElementById('btn326_2').disabled = true;
+    document.getElementById('btn326_3').disabled = true;
+}
+
+function suite92() {
+    document.getElementById('opacite326').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('92').innerHTML;
+    document.getElementById('btn326_1').disabled = true;
+    document.getElementById('btn326_2').disabled = true;
+    document.getElementById('btn326_3').disabled = true;
+}
+
+// - Le fantôme - & - Ahhhhhhhhhh ! - & - Descends là-dedans ! -
+function suite132() {
+    document.getElementById('opacite195').classList.remove('opacite');
+    document.getElementById('opacite410').classList.remove('opacite');
+    document.getElementById('opacite92').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('132').innerHTML;
+    document.getElementById('btn195').disabled = true;
+    document.getElementById('btn410').disabled = true;
+    document.getElementById('btn92').disabled = true;
+}
+
+// - La pieuvre ! -
+function suite187() {
+    document.getElementById('opacite132').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('187').innerHTML;
+    document.getElementById('btn132').disabled = true;
+}
+
+// - Où étiez-vous ? -
+function suite344() {
+    document.getElementById('opacite187').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('344').innerHTML;
+    document.getElementById('btn187_1').disabled = true;
+    document.getElementById('btn187_2').disabled = true;
+}
+
+function suite262() {
+    document.getElementById('opacite187').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('262').innerHTML;
+    document.getElementById('btn187_1').disabled = true;
+    document.getElementById('btn187_2').disabled = true;
+}
+
+// - Bloc opératoire -
+function suite238() {
+    document.getElementById('opacite456').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('238').innerHTML;
+    document.getElementById('btn456_1').disabled = true;
+    document.getElementById('btn456_2').disabled = true;
+}
+
+function suite246() {
+    document.getElementById('opacite456').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('246').innerHTML;
+    document.getElementById('btn456_1').disabled = true;
+    document.getElementById('btn456_2').disabled = true;
+}
