@@ -260,7 +260,7 @@ function suite423() {
     document.getElementById('btn403_bis3').disabled = true;
 }
 
-// - Bon vent -
+// - Bon vent - & - Porte bloquée -
 function suite199() {
     document.getElementById('opacite312').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('199').innerHTML;
@@ -270,9 +270,11 @@ function suite199() {
 
 function suite353() {
     document.getElementById('opacite312').classList.remove('opacite');
+    document.getElementById('opacite199').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('353').innerHTML;
     document.getElementById('btn312_1').disabled = true;
     document.getElementById('btn312_2').disabled = true;
+    document.getElementById('btn199').disabled = true;
 }
 
 // - En bonne voie... -
@@ -290,12 +292,16 @@ function suite426() {
     document.getElementById('btn423_2').disabled = true;
 }
 
-// - Un passage -
+// - Un passage - & -Je vous l'avais dit ! - & - Sortie immédiate -
 function suite72() {
     document.getElementById('opacite167').classList.remove('opacite');
+    document.getElementById('opacite238').classList.remove('opacite');
+    document.getElementById('opacite246').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('72').innerHTML;
     document.getElementById('btn167_1').disabled = true;
     document.getElementById('btn167_2').disabled = true;
+    document.getElementById('btn238').disabled = true;
+    document.getElementById('btn246').disabled = true;
 }
 
 function suite456() {
@@ -305,7 +311,7 @@ function suite456() {
     document.getElementById('btn167_2').disabled = true;
 }
 
-// - Pièce dérangeante -
+// - Pièce dérangeante - & - Malédiction ! -
 function suite202() {
     document.getElementById('opacite426').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('202').innerHTML;
@@ -315,9 +321,11 @@ function suite202() {
 
 function suite320() {
     document.getElementById('opacite426').classList.remove('opacite');
+    document.getElementById('opacite202').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('320').innerHTML;
     document.getElementById('btn426_1').disabled = true;
     document.getElementById('btn426_2').disabled = true;
+    document.getElementById('btn202').disabled = true;
 }
 
 // - C'est un piège ! -
@@ -341,11 +349,23 @@ function suite86() {
     document.getElementById('btn471').disabled = true;
 }
 
-// - L'aquarium -
+// - L'aquarium (86) - & - L'aquarium (320) - & - Oh, bon sang ! -
 function suite136() {
     document.getElementById('opacite86').classList.remove('opacite');
+    document.getElementById('opacite320').classList.remove('opacite');
+    document.getElementById('opacite382').classList.remove('opacite');
     vHistoire.innerHTML += document.getElementById('136').innerHTML;
     document.getElementById('btn86').disabled = true;
+    document.getElementById('btn320_1').disabled = true;
+    document.getElementById('btn320_2').disabled = true;
+    document.getElementById('btn382').disabled = true;
+}
+
+function suite268() {
+    document.getElementById('opacite320').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('268').innerHTML;
+    document.getElementById('btn320_1').disabled = true;
+    document.getElementById('btn320_2').disabled = true;
 }
 
 // - Un autre couloir - & - Non, non ! (121) - & - Non, non ! (121_bis) - & - Non, non ! (374) - & - Non, non ! (374_bis) -
@@ -533,4 +553,50 @@ function suite246() {
     vHistoire.innerHTML += document.getElementById('246').innerHTML;
     document.getElementById('btn456_1').disabled = true;
     document.getElementById('btn456_2').disabled = true;
+}
+
+// - PsssPsss -
+function suite382() {
+    document.getElementById('opacite268').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('382').innerHTML;
+    document.getElementById('btn268').disabled = true;
+}
+
+// - Plongée dans le vide ! -
+function suite475() {
+    document.getElementById('opacite353').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('475').innerHTML;
+    document.getElementById('btn353').disabled = true;
+}
+
+// - Découverte choquante - & - Damnation ! -
+function suite342() {
+    document.getElementById('opacite475').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('342').innerHTML;
+    document.getElementById('btn475_1').disabled = true;
+    document.getElementById('btn475_2').disabled = true;
+}
+
+function suite393() {
+    document.getElementById('opacite475').classList.remove('opacite');
+    document.getElementById('opacite342').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('393').innerHTML;
+    document.getElementById('btn475_1').disabled = true;
+    document.getElementById('btn475_2').disabled = true;
+    document.getElementById('btn342').disabled = true;
+}
+
+// - Chemin incertain -
+function suite36() {
+    document.getElementById('opacite393').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('36').innerHTML;
+    document.getElementById('btn393_1').disabled = true;
+    document.getElementById('btn393_2').disabled = true;
+}
+
+function suite95() {
+    document.getElementById('opacite393').classList.remove('opacite');
+    vHistoire.innerHTML += document.getElementById('95').innerHTML;
+    document.getElementById('btn393_1').disabled = true;
+    document.getElementById('btn393_2').disabled = true;
 }
